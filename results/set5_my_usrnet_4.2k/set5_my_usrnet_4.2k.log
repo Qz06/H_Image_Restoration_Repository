@@ -1,0 +1,221 @@
+26-04-01 18:00:42.379 : Model path: model_zoo/my_usrnet_4.2k.pth
+26-04-01 18:00:42.380 : Params number: 17016016
+26-04-01 18:00:42.380 : Model_name:my_usrnet_4.2k, image sigma:0
+26-04-01 18:00:42.380 : testsets/set5
+26-04-01 18:00:42.912 : ---1-->   baby.bmp -- x 2 --k 0 PSNR: 32.02dB
+26-04-01 18:00:42.972 : ---2-->   bird.bmp -- x 2 --k 0 PSNR: 28.42dB
+26-04-01 18:00:43.023 : ---3--> butterfly.bmp -- x 2 --k 0 PSNR: 23.47dB
+26-04-01 18:00:43.079 : ---4-->   head.bmp -- x 2 --k 0 PSNR: 29.29dB
+26-04-01 18:00:43.136 : ---5-->  woman.bmp -- x 2 --k 0 PSNR: 27.43dB
+26-04-01 18:00:43.136 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (1) sigma: (0): 28.13 dB
+26-04-01 18:00:43.405 : ---1-->   baby.bmp -- x 2 --k 1 PSNR: 31.60dB
+26-04-01 18:00:43.490 : ---2-->   bird.bmp -- x 2 --k 1 PSNR: 28.06dB
+26-04-01 18:00:43.562 : ---3--> butterfly.bmp -- x 2 --k 1 PSNR: 23.04dB
+26-04-01 18:00:43.643 : ---4-->   head.bmp -- x 2 --k 1 PSNR: 29.06dB
+26-04-01 18:00:43.724 : ---5-->  woman.bmp -- x 2 --k 1 PSNR: 26.93dB
+26-04-01 18:00:43.724 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (2) sigma: (0): 27.74 dB
+26-04-01 18:00:44.106 : ---1-->   baby.bmp -- x 2 --k 2 PSNR: 31.14dB
+26-04-01 18:00:44.232 : ---2-->   bird.bmp -- x 2 --k 2 PSNR: 27.61dB
+26-04-01 18:00:44.333 : ---3--> butterfly.bmp -- x 2 --k 2 PSNR: 22.62dB
+26-04-01 18:00:44.451 : ---4-->   head.bmp -- x 2 --k 2 PSNR: 28.80dB
+26-04-01 18:00:44.570 : ---5-->  woman.bmp -- x 2 --k 2 PSNR: 26.42dB
+26-04-01 18:00:44.570 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (3) sigma: (0): 27.32 dB
+26-04-01 18:00:44.998 : ---1-->   baby.bmp -- x 2 --k 3 PSNR: 30.70dB
+26-04-01 18:00:45.135 : ---2-->   bird.bmp -- x 2 --k 3 PSNR: 27.16dB
+26-04-01 18:00:45.246 : ---3--> butterfly.bmp -- x 2 --k 3 PSNR: 22.26dB
+26-04-01 18:00:45.378 : ---4-->   head.bmp -- x 2 --k 3 PSNR: 28.56dB
+26-04-01 18:00:45.509 : ---5-->  woman.bmp -- x 2 --k 3 PSNR: 25.98dB
+26-04-01 18:00:45.509 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (4) sigma: (0): 26.93 dB
+26-04-01 18:00:45.900 : ---1-->   baby.bmp -- x 2 --k 4 PSNR: 30.55dB
+26-04-01 18:00:46.027 : ---2-->   bird.bmp -- x 2 --k 4 PSNR: 26.93dB
+26-04-01 18:00:46.129 : ---3--> butterfly.bmp -- x 2 --k 4 PSNR: 22.22dB
+26-04-01 18:00:46.247 : ---4-->   head.bmp -- x 2 --k 4 PSNR: 28.55dB
+26-04-01 18:00:46.366 : ---5-->  woman.bmp -- x 2 --k 4 PSNR: 25.79dB
+26-04-01 18:00:46.366 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (5) sigma: (0): 26.81 dB
+26-04-01 18:00:46.735 : ---1-->   baby.bmp -- x 2 --k 5 PSNR: 30.45dB
+26-04-01 18:00:46.855 : ---2-->   bird.bmp -- x 2 --k 5 PSNR: 26.77dB
+26-04-01 18:00:46.952 : ---3--> butterfly.bmp -- x 2 --k 5 PSNR: 21.90dB
+26-04-01 18:00:47.067 : ---4-->   head.bmp -- x 2 --k 5 PSNR: 28.50dB
+26-04-01 18:00:47.177 : ---5-->  woman.bmp -- x 2 --k 5 PSNR: 25.86dB
+26-04-01 18:00:47.178 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (6) sigma: (0): 26.70 dB
+26-04-01 18:00:47.547 : ---1-->   baby.bmp -- x 2 --k 6 PSNR: 30.52dB
+26-04-01 18:00:47.667 : ---2-->   bird.bmp -- x 2 --k 6 PSNR: 27.01dB
+26-04-01 18:00:47.764 : ---3--> butterfly.bmp -- x 2 --k 6 PSNR: 22.31dB
+26-04-01 18:00:47.875 : ---4-->   head.bmp -- x 2 --k 6 PSNR: 28.47dB
+26-04-01 18:00:47.986 : ---5-->  woman.bmp -- x 2 --k 6 PSNR: 25.64dB
+26-04-01 18:00:47.986 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (7) sigma: (0): 26.79 dB
+26-04-01 18:00:48.418 : ---1-->   baby.bmp -- x 2 --k 7 PSNR: 30.23dB
+26-04-01 18:00:48.557 : ---2-->   bird.bmp -- x 2 --k 7 PSNR: 26.68dB
+26-04-01 18:00:48.673 : ---3--> butterfly.bmp -- x 2 --k 7 PSNR: 21.91dB
+26-04-01 18:00:48.807 : ---4-->   head.bmp -- x 2 --k 7 PSNR: 28.30dB
+26-04-01 18:00:48.939 : ---5-->  woman.bmp -- x 2 --k 7 PSNR: 25.46dB
+26-04-01 18:00:48.939 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (8) sigma: (0): 26.52 dB
+26-04-01 18:00:49.147 : ---1-->   baby.bmp -- x 2 --k 8 PSNR: 29.36dB
+26-04-01 18:00:49.212 : ---2-->   bird.bmp -- x 2 --k 8 PSNR: 25.47dB
+26-04-01 18:00:49.267 : ---3--> butterfly.bmp -- x 2 --k 8 PSNR: 20.33dB
+26-04-01 18:00:49.328 : ---4-->   head.bmp -- x 2 --k 8 PSNR: 28.09dB
+26-04-01 18:00:49.392 : ---5-->  woman.bmp -- x 2 --k 8 PSNR: 24.64dB
+26-04-01 18:00:49.392 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (9) sigma: (0): 25.58 dB
+26-04-01 18:00:49.600 : ---1-->   baby.bmp -- x 2 --k 9 PSNR: 30.10dB
+26-04-01 18:00:49.666 : ---2-->   bird.bmp -- x 2 --k 9 PSNR: 26.21dB
+26-04-01 18:00:49.727 : ---3--> butterfly.bmp -- x 2 --k 9 PSNR: 21.21dB
+26-04-01 18:00:49.789 : ---4-->   head.bmp -- x 2 --k 9 PSNR: 28.33dB
+26-04-01 18:00:49.852 : ---5-->  woman.bmp -- x 2 --k 9 PSNR: 25.27dB
+26-04-01 18:00:49.852 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (10) sigma: (0): 26.22 dB
+26-04-01 18:00:49.992 : ---1-->   baby.bmp -- x 2 --k10 PSNR: 29.55dB
+26-04-01 18:00:50.037 : ---2-->   bird.bmp -- x 2 --k10 PSNR: 25.82dB
+26-04-01 18:00:50.077 : ---3--> butterfly.bmp -- x 2 --k10 PSNR: 20.68dB
+26-04-01 18:00:50.121 : ---4-->   head.bmp -- x 2 --k10 PSNR: 27.87dB
+26-04-01 18:00:50.165 : ---5-->  woman.bmp -- x 2 --k10 PSNR: 25.10dB
+26-04-01 18:00:50.165 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (11) sigma: (0): 25.80 dB
+26-04-01 18:00:50.321 : ---1-->   baby.bmp -- x 2 --k11 PSNR: 29.19dB
+26-04-01 18:00:50.370 : ---2-->   bird.bmp -- x 2 --k11 PSNR: 25.60dB
+26-04-01 18:00:50.413 : ---3--> butterfly.bmp -- x 2 --k11 PSNR: 20.31dB
+26-04-01 18:00:50.458 : ---4-->   head.bmp -- x 2 --k11 PSNR: 28.02dB
+26-04-01 18:00:50.508 : ---5-->  woman.bmp -- x 2 --k11 PSNR: 24.56dB
+26-04-01 18:00:50.508 : ------> Average PSNR(RGB) of (set5) scale factor: (2), kernel: (12) sigma: (0): 25.54 dB
+26-04-01 18:00:50.665 : ---1-->   baby.bmp -- x 3 --k 0 PSNR: 30.92dB
+26-04-01 18:00:50.717 : ---2-->   bird.bmp -- x 3 --k 0 PSNR: 27.46dB
+26-04-01 18:00:50.770 : ---3--> butterfly.bmp -- x 3 --k 0 PSNR: 22.99dB
+26-04-01 18:00:50.827 : ---4-->   head.bmp -- x 3 --k 0 PSNR: 28.68dB
+26-04-01 18:00:50.881 : ---5-->  woman.bmp -- x 3 --k 0 PSNR: 26.48dB
+26-04-01 18:00:50.881 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (1) sigma: (0): 27.31 dB
+26-04-01 18:00:51.140 : ---1-->   baby.bmp -- x 3 --k 1 PSNR: 31.05dB
+26-04-01 18:00:51.226 : ---2-->   bird.bmp -- x 3 --k 1 PSNR: 27.63dB
+26-04-01 18:00:51.290 : ---3--> butterfly.bmp -- x 3 --k 1 PSNR: 23.12dB
+26-04-01 18:00:51.364 : ---4-->   head.bmp -- x 3 --k 1 PSNR: 28.77dB
+26-04-01 18:00:51.441 : ---5-->  woman.bmp -- x 3 --k 1 PSNR: 26.52dB
+26-04-01 18:00:51.441 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (2) sigma: (0): 27.42 dB
+26-04-01 18:00:51.808 : ---1-->   baby.bmp -- x 3 --k 2 PSNR: 30.73dB
+26-04-01 18:00:51.933 : ---2-->   bird.bmp -- x 3 --k 2 PSNR: 27.29dB
+26-04-01 18:00:52.023 : ---3--> butterfly.bmp -- x 3 --k 2 PSNR: 22.84dB
+26-04-01 18:00:52.130 : ---4-->   head.bmp -- x 3 --k 2 PSNR: 28.56dB
+26-04-01 18:00:52.243 : ---5-->  woman.bmp -- x 3 --k 2 PSNR: 26.16dB
+26-04-01 18:00:52.243 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (3) sigma: (0): 27.12 dB
+26-04-01 18:00:52.653 : ---1-->   baby.bmp -- x 3 --k 3 PSNR: 30.35dB
+26-04-01 18:00:52.791 : ---2-->   bird.bmp -- x 3 --k 3 PSNR: 26.90dB
+26-04-01 18:00:52.890 : ---3--> butterfly.bmp -- x 3 --k 3 PSNR: 22.55dB
+26-04-01 18:00:53.009 : ---4-->   head.bmp -- x 3 --k 3 PSNR: 28.33dB
+26-04-01 18:00:53.131 : ---5-->  woman.bmp -- x 3 --k 3 PSNR: 25.78dB
+26-04-01 18:00:53.131 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (4) sigma: (0): 26.78 dB
+26-04-01 18:00:53.501 : ---1-->   baby.bmp -- x 3 --k 4 PSNR: 30.22dB
+26-04-01 18:00:53.623 : ---2-->   bird.bmp -- x 3 --k 4 PSNR: 26.69dB
+26-04-01 18:00:53.715 : ---3--> butterfly.bmp -- x 3 --k 4 PSNR: 22.52dB
+26-04-01 18:00:53.821 : ---4-->   head.bmp -- x 3 --k 4 PSNR: 28.33dB
+26-04-01 18:00:53.934 : ---5-->  woman.bmp -- x 3 --k 4 PSNR: 25.60dB
+26-04-01 18:00:53.934 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (5) sigma: (0): 26.67 dB
+26-04-01 18:00:54.280 : ---1-->   baby.bmp -- x 3 --k 5 PSNR: 30.14dB
+26-04-01 18:00:54.397 : ---2-->   bird.bmp -- x 3 --k 5 PSNR: 26.56dB
+26-04-01 18:00:54.484 : ---3--> butterfly.bmp -- x 3 --k 5 PSNR: 22.23dB
+26-04-01 18:00:54.585 : ---4-->   head.bmp -- x 3 --k 5 PSNR: 28.29dB
+26-04-01 18:00:54.692 : ---5-->  woman.bmp -- x 3 --k 5 PSNR: 25.68dB
+26-04-01 18:00:54.692 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (6) sigma: (0): 26.58 dB
+26-04-01 18:00:55.044 : ---1-->   baby.bmp -- x 3 --k 6 PSNR: 30.20dB
+26-04-01 18:00:55.162 : ---2-->   bird.bmp -- x 3 --k 6 PSNR: 26.78dB
+26-04-01 18:00:55.249 : ---3--> butterfly.bmp -- x 3 --k 6 PSNR: 22.63dB
+26-04-01 18:00:55.354 : ---4-->   head.bmp -- x 3 --k 6 PSNR: 28.23dB
+26-04-01 18:00:55.459 : ---5-->  woman.bmp -- x 3 --k 6 PSNR: 25.48dB
+26-04-01 18:00:55.459 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (7) sigma: (0): 26.66 dB
+26-04-01 18:00:55.866 : ---1-->   baby.bmp -- x 3 --k 7 PSNR: 29.94dB
+26-04-01 18:00:56.002 : ---2-->   bird.bmp -- x 3 --k 7 PSNR: 26.48dB
+26-04-01 18:00:56.106 : ---3--> butterfly.bmp -- x 3 --k 7 PSNR: 22.26dB
+26-04-01 18:00:56.225 : ---4-->   head.bmp -- x 3 --k 7 PSNR: 28.08dB
+26-04-01 18:00:56.348 : ---5-->  woman.bmp -- x 3 --k 7 PSNR: 25.33dB
+26-04-01 18:00:56.348 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (8) sigma: (0): 26.42 dB
+26-04-01 18:00:56.535 : ---1-->   baby.bmp -- x 3 --k 8 PSNR: 28.67dB
+26-04-01 18:00:56.598 : ---2-->   bird.bmp -- x 3 --k 8 PSNR: 24.96dB
+26-04-01 18:00:56.648 : ---3--> butterfly.bmp -- x 3 --k 8 PSNR: 19.92dB
+26-04-01 18:00:56.706 : ---4-->   head.bmp -- x 3 --k 8 PSNR: 27.69dB
+26-04-01 18:00:56.764 : ---5-->  woman.bmp -- x 3 --k 8 PSNR: 23.94dB
+26-04-01 18:00:56.764 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (9) sigma: (0): 25.04 dB
+26-04-01 18:00:56.959 : ---1-->   baby.bmp -- x 3 --k 9 PSNR: 29.17dB
+26-04-01 18:00:57.028 : ---2-->   bird.bmp -- x 3 --k 9 PSNR: 25.44dB
+26-04-01 18:00:57.078 : ---3--> butterfly.bmp -- x 3 --k 9 PSNR: 20.65dB
+26-04-01 18:00:57.136 : ---4-->   head.bmp -- x 3 --k 9 PSNR: 27.86dB
+26-04-01 18:00:57.195 : ---5-->  woman.bmp -- x 3 --k 9 PSNR: 24.38dB
+26-04-01 18:00:57.195 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (10) sigma: (0): 25.50 dB
+26-04-01 18:00:57.321 : ---1-->   baby.bmp -- x 3 --k10 PSNR: 28.99dB
+26-04-01 18:00:57.365 : ---2-->   bird.bmp -- x 3 --k10 PSNR: 25.24dB
+26-04-01 18:00:57.404 : ---3--> butterfly.bmp -- x 3 --k10 PSNR: 20.17dB
+26-04-01 18:00:57.443 : ---4-->   head.bmp -- x 3 --k10 PSNR: 27.52dB
+26-04-01 18:00:57.483 : ---5-->  woman.bmp -- x 3 --k10 PSNR: 24.45dB
+26-04-01 18:00:57.484 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (11) sigma: (0): 25.27 dB
+26-04-01 18:00:57.620 : ---1-->   baby.bmp -- x 3 --k11 PSNR: 28.70dB
+26-04-01 18:00:57.677 : ---2-->   bird.bmp -- x 3 --k11 PSNR: 25.30dB
+26-04-01 18:00:57.714 : ---3--> butterfly.bmp -- x 3 --k11 PSNR: 20.15dB
+26-04-01 18:00:57.755 : ---4-->   head.bmp -- x 3 --k11 PSNR: 27.67dB
+26-04-01 18:00:57.802 : ---5-->  woman.bmp -- x 3 --k11 PSNR: 24.16dB
+26-04-01 18:00:57.802 : ------> Average PSNR(RGB) of (set5) scale factor: (3), kernel: (12) sigma: (0): 25.20 dB
+26-04-01 18:00:57.961 : ---1-->   baby.bmp -- x 4 --k 0 PSNR: 29.52dB
+26-04-01 18:00:58.015 : ---2-->   bird.bmp -- x 4 --k 0 PSNR: 25.87dB
+26-04-01 18:00:58.060 : ---3--> butterfly.bmp -- x 4 --k 0 PSNR: 21.49dB
+26-04-01 18:00:58.112 : ---4-->   head.bmp -- x 4 --k 0 PSNR: 27.77dB
+26-04-01 18:00:58.162 : ---5-->  woman.bmp -- x 4 --k 0 PSNR: 25.11dB
+26-04-01 18:00:58.162 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (1) sigma: (0): 25.95 dB
+26-04-01 18:00:58.430 : ---1-->   baby.bmp -- x 4 --k 1 PSNR: 30.32dB
+26-04-01 18:00:58.516 : ---2-->   bird.bmp -- x 4 --k 1 PSNR: 26.76dB
+26-04-01 18:00:58.590 : ---3--> butterfly.bmp -- x 4 --k 1 PSNR: 22.36dB
+26-04-01 18:00:58.672 : ---4-->   head.bmp -- x 4 --k 1 PSNR: 28.21dB
+26-04-01 18:00:58.755 : ---5-->  woman.bmp -- x 4 --k 1 PSNR: 26.00dB
+26-04-01 18:00:58.755 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (2) sigma: (0): 26.73 dB
+26-04-01 18:00:59.139 : ---1-->   baby.bmp -- x 4 --k 2 PSNR: 30.34dB
+26-04-01 18:00:59.260 : ---2-->   bird.bmp -- x 4 --k 2 PSNR: 26.78dB
+26-04-01 18:00:59.361 : ---3--> butterfly.bmp -- x 4 --k 2 PSNR: 22.47dB
+26-04-01 18:00:59.476 : ---4-->   head.bmp -- x 4 --k 2 PSNR: 28.21dB
+26-04-01 18:00:59.591 : ---5-->  woman.bmp -- x 4 --k 2 PSNR: 26.05dB
+26-04-01 18:00:59.591 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (3) sigma: (0): 26.77 dB
+26-04-01 18:01:00.007 : ---1-->   baby.bmp -- x 4 --k 3 PSNR: 30.17dB
+26-04-01 18:01:00.141 : ---2-->   bird.bmp -- x 4 --k 3 PSNR: 26.60dB
+26-04-01 18:01:00.253 : ---3--> butterfly.bmp -- x 4 --k 3 PSNR: 22.39dB
+26-04-01 18:01:00.382 : ---4-->   head.bmp -- x 4 --k 3 PSNR: 28.11dB
+26-04-01 18:01:00.508 : ---5-->  woman.bmp -- x 4 --k 3 PSNR: 25.92dB
+26-04-01 18:01:00.508 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (4) sigma: (0): 26.64 dB
+26-04-01 18:01:00.895 : ---1-->   baby.bmp -- x 4 --k 4 PSNR: 30.06dB
+26-04-01 18:01:01.016 : ---2-->   bird.bmp -- x 4 --k 4 PSNR: 26.41dB
+26-04-01 18:01:01.118 : ---3--> butterfly.bmp -- x 4 --k 4 PSNR: 22.26dB
+26-04-01 18:01:01.234 : ---4-->   head.bmp -- x 4 --k 4 PSNR: 28.06dB
+26-04-01 18:01:01.351 : ---5-->  woman.bmp -- x 4 --k 4 PSNR: 25.74dB
+26-04-01 18:01:01.351 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (5) sigma: (0): 26.51 dB
+26-04-01 18:01:01.712 : ---1-->   baby.bmp -- x 4 --k 5 PSNR: 30.00dB
+26-04-01 18:01:01.827 : ---2-->   bird.bmp -- x 4 --k 5 PSNR: 26.32dB
+26-04-01 18:01:01.923 : ---3--> butterfly.bmp -- x 4 --k 5 PSNR: 22.03dB
+26-04-01 18:01:02.032 : ---4-->   head.bmp -- x 4 --k 5 PSNR: 28.09dB
+26-04-01 18:01:02.141 : ---5-->  woman.bmp -- x 4 --k 5 PSNR: 25.85dB
+26-04-01 18:01:02.141 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (6) sigma: (0): 26.46 dB
+26-04-01 18:01:02.505 : ---1-->   baby.bmp -- x 4 --k 6 PSNR: 30.01dB
+26-04-01 18:01:02.620 : ---2-->   bird.bmp -- x 4 --k 6 PSNR: 26.50dB
+26-04-01 18:01:02.717 : ---3--> butterfly.bmp -- x 4 --k 6 PSNR: 22.49dB
+26-04-01 18:01:02.827 : ---4-->   head.bmp -- x 4 --k 6 PSNR: 28.01dB
+26-04-01 18:01:02.937 : ---5-->  woman.bmp -- x 4 --k 6 PSNR: 25.51dB
+26-04-01 18:01:02.937 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (7) sigma: (0): 26.50 dB
+26-04-01 18:01:03.360 : ---1-->   baby.bmp -- x 4 --k 7 PSNR: 29.88dB
+26-04-01 18:01:03.495 : ---2-->   bird.bmp -- x 4 --k 7 PSNR: 26.30dB
+26-04-01 18:01:03.607 : ---3--> butterfly.bmp -- x 4 --k 7 PSNR: 22.27dB
+26-04-01 18:01:03.742 : ---4-->   head.bmp -- x 4 --k 7 PSNR: 27.94dB
+26-04-01 18:01:03.871 : ---5-->  woman.bmp -- x 4 --k 7 PSNR: 25.61dB
+26-04-01 18:01:03.871 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (8) sigma: (0): 26.40 dB
+26-04-01 18:01:04.067 : ---1-->   baby.bmp -- x 4 --k 8 PSNR: 27.93dB
+26-04-01 18:01:04.133 : ---2-->   bird.bmp -- x 4 --k 8 PSNR: 24.43dB
+26-04-01 18:01:04.189 : ---3--> butterfly.bmp -- x 4 --k 8 PSNR: 18.58dB
+26-04-01 18:01:04.249 : ---4-->   head.bmp -- x 4 --k 8 PSNR: 27.28dB
+26-04-01 18:01:04.314 : ---5-->  woman.bmp -- x 4 --k 8 PSNR: 23.26dB
+26-04-01 18:01:04.314 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (9) sigma: (0): 24.30 dB
+26-04-01 18:01:04.517 : ---1-->   baby.bmp -- x 4 --k 9 PSNR: 28.11dB
+26-04-01 18:01:04.582 : ---2-->   bird.bmp -- x 4 --k 9 PSNR: 24.55dB
+26-04-01 18:01:04.639 : ---3--> butterfly.bmp -- x 4 --k 9 PSNR: 18.97dB
+26-04-01 18:01:04.706 : ---4-->   head.bmp -- x 4 --k 9 PSNR: 27.38dB
+26-04-01 18:01:04.768 : ---5-->  woman.bmp -- x 4 --k 9 PSNR: 23.27dB
+26-04-01 18:01:04.768 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (10) sigma: (0): 24.46 dB
+26-04-01 18:01:04.908 : ---1-->   baby.bmp -- x 4 --k10 PSNR: 28.34dB
+26-04-01 18:01:04.951 : ---2-->   bird.bmp -- x 4 --k10 PSNR: 24.53dB
+26-04-01 18:01:04.990 : ---3--> butterfly.bmp -- x 4 --k10 PSNR: 19.01dB
+26-04-01 18:01:05.031 : ---4-->   head.bmp -- x 4 --k10 PSNR: 27.09dB
+26-04-01 18:01:05.072 : ---5-->  woman.bmp -- x 4 --k10 PSNR: 23.93dB
+26-04-01 18:01:05.072 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (11) sigma: (0): 24.58 dB
+26-04-01 18:01:05.220 : ---1-->   baby.bmp -- x 4 --k11 PSNR: 28.39dB
+26-04-01 18:01:05.264 : ---2-->   bird.bmp -- x 4 --k11 PSNR: 24.87dB
+26-04-01 18:01:05.308 : ---3--> butterfly.bmp -- x 4 --k11 PSNR: 19.74dB
+26-04-01 18:01:05.352 : ---4-->   head.bmp -- x 4 --k11 PSNR: 27.42dB
+26-04-01 18:01:05.396 : ---5-->  woman.bmp -- x 4 --k11 PSNR: 24.07dB
+26-04-01 18:01:05.396 : ------> Average PSNR(RGB) of (set5) scale factor: (4), kernel: (12) sigma: (0): 24.90 dB
+26-04-01 18:01:05.396 : [28.127035729722433, 27.738985483092403, 27.317649673241128, 26.931773040761737, 26.806345596050697, 26.695648792539735, 26.789593297283442, 26.51843676076833, 25.57932083063996, 26.222636252055395, 25.80205662518235, 25.536013852940766, 27.308184177029272, 27.418086083729076, 27.115258423110028, 26.784089996788605, 26.671990177982867, 26.578883069388475, 26.663983806123248, 26.418712072689164, 25.03525173624516, 25.501989520335837, 25.274074044776313, 25.196689046638284, 25.949502017829396, 26.729774885661833, 26.771383192017005, 26.63833698856724, 26.507058644569963, 26.458537091118007, 26.503486893136483, 26.402415677374677, 24.2962177746934, 24.456814175910143, 24.580549927018872, 24.898364149640408]

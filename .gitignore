@@ -44,6 +44,10 @@ superresolution/**/images/**
 !superresolution/**/images/**/*808*.jpg
 !superresolution/**/images/**/*808*.jpeg
 
+# Representative outputs from latest BSRGAN forward inference
+!results/my_bsrgan_x4_forward_3000E/0801x4.png
+!results/my_bsrgan_x4_forward_3000E/0900x4.png
+
 # Large model checkpoints (ignored by default)
 model_zoo/*.pth
 SR/**/models/*.pth
@@ -62,6 +66,10 @@ superresolution/**/models/*.bin
 !superresolution/my_bsrgan_x4_sr/models/3000_G.pth
 !superresolution/my_swinir_classical_sr/models/500_G.pth
 !superresolution/my_swinir_classical_sr/models/7000_G.pth
+
+# Keep all log files uploadable (do not ignore logs)
+!*.log
+!**/*.log
 
 # Keep repository docs and markdown
 !*.md

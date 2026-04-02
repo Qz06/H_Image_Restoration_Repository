@@ -1,0 +1,122 @@
+{
+    "task": "my_bsrgan_x4_sr", // [KEY] 与PSNR阶段一致，GAN会在同任务目录衔接权重
+    "model": "gan",
+    "gpu_ids": [
+        0
+    ], // [KEY] 单卡训练
+    "dist": false, // [KEY] 单卡时设为 false
+    "scale": 4,
+    "n_channels": 3,
+    "path": {
+        "root": "superresolution",
+        "pretrained_netG": null,
+        "pretrained_netD": null,
+        "pretrained_netE": null
+    },
+    "datasets": {
+        "train": {
+            "name": "train_dataset",
+            "dataset_type": "blindsr",
+            "dataroot_H": "trainsets/DIV2K/DIV2K_train_HR", // [KEY] 训练高质量图像目录
+            "dataroot_L": null,
+            "degradation_type": "bsrgan", // [KEY] bsrgan 或 bsrgan_plus
+            "H_size": 320, // [KEY] 显存优化：320 -> 256
+            "shuffle_prob": 0.1,
+            "lq_patchsize": 72, // [KEY] 显存优化：72 -> 64
+            "use_sharp": false,
+            "dataloader_shuffle": true,
+            "dataloader_num_workers": 8,
+            "dataloader_batch_size": 16 // [KEY] 显存优化：32 -> 1
+        },
+        "test": {
+            "name": "test_dataset",
+            "dataset_type": "blindsr",
+            "degradation_type": "bsrgan",
+            "H_size": 320,
+            "shuffle_prob": 0.1,
+            "lq_patchsize": 72,
+            "use_sharp": false,
+            "dataroot_H": "trainsets/DIV2K/DIV2K_valid_HR", // [KEY] 验证高质量图像目录
+            "dataroot_L": null
+        }
+    },
+    "netG": {
+        "net_type": "rrdbnet",
+        "in_nc": 3,
+        "out_nc": 3,
+        "nf": 64,
+        "nb": 23,
+        "gc": 32,
+        "ng": 2,
+        "reduction": 16,
+        "act_mode": "L",
+        "bias": true,
+        "init_type": "orthogonal",
+        "init_bn_type": "uniform",
+        "init_gain": 0.2
+    },
+    "netD": {
+        "net_type": "discriminator_unet",
+        "in_nc": 3,
+        "base_nc": 64,
+        "n_layers": 3,
+        "norm_type": "spectral",
+        "init_type": "orthogonal",
+        "init_bn_type": "uniform",
+        "init_gain": 0.2
+    },
+    "train": {
+        "G_lossfn_type": "l1",
+        "G_lossfn_weight": 1,
+        "F_lossfn_type": "l1",
+        "F_lossfn_weight": 1,
+        "F_feature_layer": [
+            2,
+            7,
+            16,
+            25,
+            34
+        ],
+        "F_weights": [
+            0.1,
+            0.1,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "F_use_input_norm": true,
+        "F_use_range_norm": false,
+        "gan_type": "lsgan",
+        "D_lossfn_weight": 1,
+        "E_decay": 0.999,
+        "D_init_iters": 0,
+        "G_optimizer_type": "adam",
+        "G_optimizer_lr": 5e-5,
+        "G_optimizer_wd": 0,
+        "D_optimizer_type": "adam",
+        "D_optimizer_lr": 5e-5,
+        "D_optimizer_wd": 0,
+        "G_scheduler_type": "MultiStepLR",
+        "G_scheduler_milestones": [
+            800000,
+            1600000
+        ],
+        "G_scheduler_gamma": 0.5,
+        "G_optimizer_reuse": false, // [KEY] GAN阶段通常不复用PSNR阶段优化器状态
+        "D_scheduler_type": "MultiStepLR",
+        "D_scheduler_milestones": [
+            800000,
+            1600000
+        ],
+        "D_scheduler_gamma": 0.5,
+        "D_optimizer_reuse": false,
+        "G_param_strict": true,
+        "D_param_strict": true,
+        "E_param_strict": true,
+        "val_which_model": "G", // [KEY] 周期验证用 E(EMA) 或 G
+        "total_iter": 200000, // [KEY] GAN阶段总迭代数
+        "checkpoint_test": 500, // [KEY] 周期验证间隔
+        "checkpoint_save": 500,
+        "checkpoint_print": 100
+    }
+}

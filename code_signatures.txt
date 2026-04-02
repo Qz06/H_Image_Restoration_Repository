@@ -1,0 +1,3286 @@
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_140232.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 128,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 48,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_140544.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 128,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 48,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_140850.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 128,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 48,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_141035.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 128,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 48,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_143610.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 128,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 48,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_151405.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 32,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_151557.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 28,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_151645.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 20,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_151712.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 24,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_151732.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 20,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: SR/my-usrnet/options/my_train_usrnet_260331_153637.json =====
+{
+  "task": "my-usrnet",
+  "model": "plain4",
+  "gpu_ids": [
+    0
+  ],
+  "scale": 4,
+  "n_channels": 3,
+  "merge_bn": false,
+  "merge_bn_startpoint": 300000,
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR",
+      "dataroot_L": null,
+      "H_size": 192,
+      "use_flip": true,
+      "use_rot": true,
+      "scales": [
+        4
+      ],
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 8,
+      "dataloader_batch_size": 20,
+      "phase": "train",
+      "scale": 4,
+      "n_channels": 3
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "usrnet",
+      "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR",
+      "dataroot_L": null,
+      "phase": "test",
+      "scale": 4,
+      "n_channels": 3
+    }
+  },
+  "path": {
+
+===== FILE: data/__init__.py =====
+
+===== FILE: data/dataset_blindsr.py =====
+9:class DatasetBlindSR(data.Dataset):
+15:    def __init__(self, opt):
+35:    def __getitem__(self, index):
+91:    def __len__(self):
+
+===== FILE: data/dataset_dncnn.py =====
+9:class DatasetDnCNN(data.Dataset):
+19:    def __init__(self, opt):
+34:    def __getitem__(self, index):
+100:    def __len__(self):
+
+===== FILE: data/dataset_dnpatch.py =====
+8:class DatasetDnPatch(data.Dataset):
+19:    def __init__(self, opt):
+54:    def update_data(self):
+71:    def get_patches(self, index):
+93:    def __getitem__(self, index):
+132:    def __len__(self):
+
+===== FILE: data/dataset_dpsr.py =====
+8:class DatasetDPSR(data.Dataset):
+18:    def __init__(self, opt):
+37:    def __getitem__(self, index):
+130:    def __len__(self):
+
+===== FILE: data/dataset_fdncnn.py =====
+8:class DatasetFDnCNN(data.Dataset):
+18:    def __init__(self, opt):
+32:    def __getitem__(self, index):
+108:    def __len__(self):
+
+===== FILE: data/dataset_ffdnet.py =====
+8:class DatasetFFDNet(data.Dataset):
+18:    def __init__(self, opt):
+32:    def __getitem__(self, index):
+102:    def __len__(self):
+
+===== FILE: data/dataset_jpeg.py =====
+7:class DatasetJPEG(data.Dataset):
+8:    def __init__(self, opt):
+24:    def __getitem__(self, index):
+117:    def __len__(self):
+
+===== FILE: data/dataset_l.py =====
+5:class DatasetL(data.Dataset):
+14:    def __init__(self, opt):
+26:    def __getitem__(self, index):
+42:    def __len__(self):
+
+===== FILE: data/dataset_plain.py =====
+7:class DatasetPlain(data.Dataset):
+17:    def __init__(self, opt):
+35:    def __getitem__(self, index):
+84:    def __len__(self):
+
+===== FILE: data/dataset_plainpatch.py =====
+9:class DatasetPlainPatch(data.Dataset):
+20:    def __init__(self, opt):
+59:    def update_data(self):
+77:    def get_patches(self, index):
+103:    def __getitem__(self, index):
+129:    def __len__(self):
+
+===== FILE: data/dataset_sr.py =====
+7:class DatasetSR(data.Dataset):
+17:    def __init__(self, opt):
+35:    def __getitem__(self, index):
+104:    def __len__(self):
+
+===== FILE: data/dataset_srmd.py =====
+13:class DatasetSRMD(data.Dataset):
+23:    def __init__(self, opt):
+46:    def __getitem__(self, index):
+154:    def __len__(self):
+
+===== FILE: data/dataset_usrnet.py =====
+16:class DatasetUSRNet(data.Dataset):
+23:    def __init__(self, opt):
+40:    def __getitem__(self, index):
+125:    def __len__(self):
+
+===== FILE: data/dataset_video_test.py =====
+11:class VideoRecurrentTestDataset(data.Dataset):
+46:    def __init__(self, opt):
+97:    def __getitem__(self, index):
+129:    def __len__(self):
+133:class SingleVideoRecurrentTestDataset(data.Dataset):
+166:    def __init__(self, opt):
+208:    def __getitem__(self, index):
+222:    def __len__(self):
+226:class VideoTestVimeo90KDataset(data.Dataset):
+246:    def __init__(self, opt):
+271:    def __getitem__(self, index):
+293:    def __len__(self):
+297:class VFI_DAVIS(data.Dataset):
+302:    def __init__(self, data_root, ext="png"):
+322:    def __getitem__(self, idx):
+335:    def __len__(self):
+339:class VFI_UCF101(data.Dataset):
+344:    def __init__(self, data_root, ext="png"):
+355:    def __getitem__(self, idx):
+370:    def __len__(self):
+374:class VFI_Vid4(data.Dataset):
+379:    def __init__(self, data_root, ext="png"):
+411:    def __getitem__(self, idx):
+424:    def __len__(self):
+
+===== FILE: data/dataset_video_train.py =====
+11:class VideoRecurrentTrainDataset(data.Dataset):
+50:    def __init__(self, opt):
+118:    def __getitem__(self, index):
+180:    def __len__(self):
+184:class VideoRecurrentTrainNonblindDenoisingDataset(VideoRecurrentTrainDataset):
+192:    def __init__(self, opt):
+197:    def __getitem__(self, index):
+258:    def __len__(self):
+262:class VideoRecurrentTrainVimeoDataset(data.Dataset):
+302:    def __init__(self, opt):
+330:    def __getitem__(self, index):
+386:    def __len__(self):
+389:class VideoRecurrentTrainVimeoVFIDataset(VideoRecurrentTrainVimeoDataset):
+391:    def __init__(self, opt):
+398:    def __getitem__(self, index):
+
+===== FILE: data/select_dataset.py =====
+12:def define_Dataset(dataset_opt):
+
+===== FILE: matlab/Cal_PSNRSSIM.m =====
+1:function [psnr_cur, ssim_cur] = Cal_PSNRSSIM(A,B,row,col)
+21:function [mssim, ssim_map] = ssim_index(img1, img2, K, window, L)
+
+===== FILE: matlab/center_replace.m =====
+1:function [im] = center_replace(im,im2)
+
+===== FILE: matlab/main_denoising_color.m =====
+
+===== FILE: matlab/main_denoising_gray.m =====
+
+===== FILE: matlab/modcrop.m =====
+1:function imgs = modcrop(imgs, modulo)
+
+===== FILE: matlab/shave.m =====
+1:function I = shave(I, border)
+
+===== FILE: matlab/zoom_function.m =====
+1:function [I]=zoom_function(I,upperleft_pixel,box,zoomfactor,zoom_position,nline)
+
+===== FILE: models/op/__init__.py =====
+
+===== FILE: models/op/deform_attn.py =====
+30:class Mlp(nn.Module):
+40:    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
+49:    def forward(self, x):
+53:class DeformAttnFunction(Function):
+56:    def forward(ctx,
+88:    def backward(ctx, grad_output):
+107:class DeformAttn(nn.Module):
+109:    def __init__(self,
+142:    def forward(self, q, k, v, offset):
+151:class DeformAttnPack(DeformAttn):
+163:    def __init__(self, *args, **kwargs):
+176:    def init_weight(self):
+181:    def forward(self, q, k, v):
+
+===== FILE: models/op/fused_act.py =====
+21:class FusedLeakyReLUFunctionBackward(Function):
+23:    def forward(ctx, grad_output, out, negative_slope, scale):
+44:    def backward(ctx, gradgrad_input, gradgrad_bias):
+53:class FusedLeakyReLUFunction(Function):
+55:    def forward(ctx, input, bias, negative_slope, scale):
+65:    def backward(ctx, grad_output):
+75:class FusedLeakyReLU(nn.Module):
+76:    def __init__(self, channel, negative_slope=0.2, scale=2 ** 0.5):
+83:    def forward(self, input):
+87:def fused_leaky_relu(input, bias, negative_slope=0.2, scale=2 ** 0.5):
+
+===== FILE: models/op/upfirdn2d.py =====
+19:class UpFirDn2dBackward(Function):
+21:    def forward(
+63:    def backward(ctx, gradgrad_input):
+88:class UpFirDn2d(Function):
+90:    def forward(ctx, input, kernel, up, down, pad):
+127:    def backward(ctx, grad_output):
+145:def upfirdn2d(input, kernel, up=1, down=1, pad=(0, 0)):
+153:def upfirdn2d_native(
+
+===== FILE: models/basicblock.py =====
+15:def sequential(*args):
+61:def conv(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=True, mode='CBR', negative_slope=0.2):
+104:def pixel_unshuffle(input, upscale_factor):
+129:class PixelUnShuffle(nn.Module):
+141:    def __init__(self, upscale_factor):
+145:    def forward(self, input):
+148:    def extra_repr(self):
+156:class ConditionalBatchNorm2d(nn.Module):
+157:    def __init__(self, num_features, num_classes):
+165:    def forward(self, x, y):
+175:class ConcatBlock(nn.Module):
+176:    def __init__(self, submodule):
+180:    def forward(self, x):
+184:    def __repr__(self):
+191:class ShortcutBlock(nn.Module):
+192:    def __init__(self, submodule):
+197:    def forward(self, x):
+201:    def __repr__(self):
+211:class ResBlock(nn.Module):
+212:    def __init__(self, in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=True, mode='CRC', negative_slope=0.2):
+221:    def forward(self, x):
+230:class IMDBlock(nn.Module):
+246:    def __init__(self, in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=True, mode='CL', d_rate=0.25, negative_slope=0.05):
+259:    def forward(self, x):
+271:class ESA(nn.Module):
+272:    def __init__(self, channel=64, reduction=4, bias=True):
+287:    def forward(self, x):
+298:class CFRB(nn.Module):
+299:    def __init__(self, in_channels=50, out_channels=50, kernel_size=3, stride=1, padding=1, bias=True, mode='CL', d_rate=0.5, negative_slope=0.05):
+317:    def forward(self, x):
+333:class CALayer(nn.Module):
+334:    def __init__(self, channel=64, reduction=16):
+345:    def forward(self, x):
+354:class RCABlock(nn.Module):
+355:    def __init__(self, in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=True, mode='CRC', reduction=16, negative_slope=0.2):
+364:    def forward(self, x):
+373:class RCAGroup(nn.Module):
+374:    def __init__(self, in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=True, mode='CRC', reduction=16, nb=12, negative_slope=0.2):
+384:    def forward(self, x):
+393:class ResidualDenseBlock_5C(nn.Module):
+
+===== FILE: models/loss.py =====
+54:class VGGFeatureExtractor(nn.Module):
+55:    def __init__(self, feature_layer=[2,7,16,25,34], use_input_norm=True, use_range_norm=False):
+84:    def forward(self, x):
+99:class PerceptualLoss(nn.Module):
+103:    def __init__(self, feature_layer=[2,7,16,25,34], weights=[0.1,0.1,1.0,1.0,1.0], lossfn_type='l1', use_input_norm=True, use_range_norm=False):
+114:    def forward(self, x, gt):
+135:class GANLoss(nn.Module):
+136:    def __init__(self, gan_type, real_label_val=1.0, fake_label_val=0.0):
+147:            def wgan_loss(input, target):
+153:            def softplusgan_loss(input, target):
+161:    def get_target_label(self, input, target_is_real):
+169:    def forward(self, input, target_is_real):
+178:class TVLoss(nn.Module):
+179:    def __init__(self, tv_loss_weight=1):
+189:    def forward(self, x):
+200:    def tensor_size(t):
+207:class CharbonnierLoss(nn.Module):
+210:    def __init__(self, eps=1e-9):
+214:    def forward(self, x, y):
+221:def r1_penalty(real_pred, real_img):
+238:def g_path_regularize(fake_img, latents, mean_path_length, decay=0.01):
+253:def gradient_penalty_loss(discriminator, real_data, fake_data, weight=None):
+
+===== FILE: models/loss_ssim.py =====
+15:def gaussian(window_size, sigma):
+20:def create_window(window_size, channel):
+27:def _ssim(img1, img2, window, window_size, channel, size_average=True):
+49:class SSIMLoss(torch.nn.Module):
+50:    def __init__(self, window_size=11, size_average=True):
+57:    def forward(self, img1, img2):
+74:def ssim(img1, img2, window_size=11, size_average=True):
+
+===== FILE: models/model_base.py =====
+8:class ModelBase():
+9:    def __init__(self, opt):
+23:    def init_train(self):
+26:    def load(self):
+29:    def save(self, label):
+32:    def define_loss(self):
+35:    def define_optimizer(self):
+38:    def define_scheduler(self):
+48:    def feed_data(self, data):
+51:    def optimize_parameters(self):
+54:    def current_visuals(self):
+57:    def current_losses(self):
+60:    def update_learning_rate(self, n):
+64:    def current_learning_rate(self):
+67:    def requires_grad(self, model, flag=True):
+77:    def print_network(self):
+80:    def info_network(self):
+83:    def print_params(self):
+86:    def info_params(self):
+89:    def get_bare_model(self, network):
+97:    def model_to_device(self, network):
+118:    def describe_network(self, network):
+129:    def describe_params(self, network):
+149:    def save_network(self, save_dir, network, network_label, iter_label):
+161:    def load_network(self, load_path, network, strict=True, param_key='params'):
+181:    def save_optimizer(self, save_dir, optimizer, optimizer_label, iter_label):
+189:    def load_optimizer(self, load_path, optimizer):
+192:    def update_E(self, decay=0.999):
+209:    def merge_bnorm_train(self):
+218:    def merge_bnorm_test(self):
+
+===== FILE: models/model_gan.py =====
+13:class ModelGAN(ModelBase):
+15:    def __init__(self, opt):
+39:    def init_train(self):
+52:    def load(self):
+75:    def load_optimizers(self):
+88:    def save(self, iter_label):
+101:    def define_loss(self):
+154:    def define_optimizer(self):
+168:    def define_scheduler(self):
+188:    def feed_data(self, data, need_H=True):
+196:    def netG_forward(self):
+202:    def optimize_parameters(self, current_step):
+292:    def test(self):
+301:    def current_log(self):
+307:    def current_visuals(self, need_H=True):
+324:    def print_network(self):
+334:    def print_params(self):
+341:    def info_network(self):
+350:    def info_params(self):
+
+===== FILE: models/model_plain.py =====
+16:class ModelPlain(ModelBase):
+18:    def __init__(self, opt):
+39:    def init_train(self):
+51:    def load(self):
+69:    def load_optimizers(self):
+78:    def save(self, iter_label):
+88:    def define_loss(self):
+107:    def define_optimizer(self):
+124:    def define_scheduler(self):
+149:    def feed_data(self, data, need_H=True):
+157:    def netG_forward(self):
+163:    def optimize_parameters(self, current_step):
+198:    def test(self):
+207:    def testx8(self):
+216:    def current_log(self):
+222:    def current_visuals(self, need_H=True):
+233:    def current_results(self, need_H=True):
+250:    def print_network(self):
+257:    def print_params(self):
+264:    def info_network(self):
+271:    def info_params(self):
+
+===== FILE: models/model_plain2.py =====
+3:class ModelPlain2(ModelPlain):
+9:    def feed_data(self, data, need_H=True):
+18:    def netG_forward(self):
+
+===== FILE: models/model_plain4.py =====
+5:class ModelPlain4(ModelPlain):
+11:    def feed_data(self, data, need_H=True):
+22:    def netG_forward(self):
+
+===== FILE: models/model_vrt.py =====
+16:class ModelVRT(ModelPlain):
+18:    def __init__(self, opt):
+27:    def define_optimizer(self):
+65:    def optimize_parameters(self, current_step):
+82:    def test(self):
+114:    def _test_video(self, lq):
+158:    def _test_clip(self, lq):
+228:    def load_network(self, load_path, network, strict=True, param_key='params'):
+236:    def _print_different_keys_loading(self, crt_net, load_net, strict=True):
+
+===== FILE: models/network_discriminator.py =====
+22:class Discriminator_PatchGAN(nn.Module):
+23:    def __init__(self, input_nc=3, ndf=64, n_layers=3, norm_type='spectral'):
+63:    def use_spectral_norm(self, module, norm_type='spectral'):
+68:    def get_norm_layer(self, norm_type='instance'):
+77:    def weights_init(self, m):
+85:    def forward(self, x):
+89:class Discriminator_UNet(nn.Module):
+92:    def __init__(self, input_nc=3, ndf=64):
+113:    def forward(self, x):
+144:class Discriminator_VGG_96(nn.Module):
+145:    def __init__(self, in_nc=3, base_nc=64, ac_type='BL'):
+172:    def forward(self, x):
+182:class Discriminator_VGG_128(nn.Module):
+183:    def __init__(self, in_nc=3, base_nc=64, ac_type='BL'):
+211:    def forward(self, x):
+221:class Discriminator_VGG_192(nn.Module):
+222:    def __init__(self, in_nc=3, base_nc=64, ac_type='BL'):
+253:    def forward(self, x):
+263:class Discriminator_VGG_128_SN(nn.Module):
+264:    def __init__(self):
+291:    def forward(self, x):
+
+===== FILE: models/network_dncnn.py =====
+40:class DnCNN(nn.Module):
+41:    def __init__(self, in_nc=1, out_nc=1, nc=64, nb=17, act_mode='BR'):
+69:    def forward(self, x):
+77:class IRCNN(nn.Module):
+78:    def __init__(self, in_nc=1, out_nc=1, nc=64):
+114:    def forward(self, x):
+128:class FDnCNN(nn.Module):
+129:    def __init__(self, in_nc=2, out_nc=1, nc=64, nb=20, act_mode='R'):
+147:    def forward(self, x):
+
+===== FILE: models/network_dpsr.py =====
+42:class MSRResNet_prior(nn.Module):
+43:    def __init__(self, in_nc=4, out_nc=3, nc=96, nb=16, upscale=4, act_mode='R', upsample_mode='upconv'):
+73:    def forward(self, x):
+79:class SRResNet(nn.Module):
+80:    def __init__(self, in_nc=3, out_nc=3, nc=64, nb=16, upscale=4, act_mode='R', upsample_mode='upconv'):
+110:    def forward(self, x):
+
+===== FILE: models/network_faceenhancer.py =====
+23:class PixelNorm(nn.Module):
+24:    def __init__(self):
+27:    def forward(self, input):
+31:def make_kernel(k):
+42:class Upsample(nn.Module):
+43:    def __init__(self, kernel, factor=2):
+57:    def forward(self, input):
+63:class Downsample(nn.Module):
+64:    def __init__(self, kernel, factor=2):
+78:    def forward(self, input):
+84:class Blur(nn.Module):
+85:    def __init__(self, kernel, pad, upsample_factor=1):
+97:    def forward(self, input):
+103:class EqualConv2d(nn.Module):
+104:    def __init__(
+123:    def forward(self, input):
+134:    def __repr__(self):
+141:class EqualLinear(nn.Module):
+142:    def __init__(
+160:    def forward(self, input):
+170:    def __repr__(self):
+176:class ScaledLeakyReLU(nn.Module):
+177:    def __init__(self, negative_slope=0.2):
+182:    def forward(self, input):
+188:class ModulatedConv2d(nn.Module):
+189:    def __init__(
+237:    def __repr__(self):
+243:    def forward(self, input, style):
+287:class NoiseInjection(nn.Module):
+288:    def __init__(self):
+293:    def forward(self, image, noise=None):
+308:class ConstantInput(nn.Module):
+309:    def __init__(self, channel, size=4):
+314:    def forward(self, input):
+321:class StyledConv(nn.Module):
+322:    def __init__(
+349:    def forward(self, input, style, noise=None):
+358:class ToRGB(nn.Module):
+359:    def __init__(self, in_channel, style_dim, upsample=True, blur_kernel=[1, 3, 3, 1]):
+368:    def forward(self, input, style, skip=None):
+
+===== FILE: models/network_feature.py =====
+16:class VGGFeatureExtractor(nn.Module):
+17:    def __init__(self,
+40:    def forward(self, x):
+
+===== FILE: models/network_ffdnet.py =====
+27:class FFDNet(nn.Module):
+28:    def __init__(self, in_nc=1, out_nc=1, nc=64, nb=15, act_mode='R'):
+54:    def forward(self, x, sigma):
+
+===== FILE: models/network_imdn.py =====
+33:class IMDN(nn.Module):
+34:    def __init__(self, in_nc=3, out_nc=3, nc=64, nb=8, upscale=4, act_mode='L', upsample_mode='pixelshuffle', negative_slope=0.05):
+64:    def forward(self, x):
+
+===== FILE: models/network_msrresnet.py =====
+38:class MSRResNet0(nn.Module):
+39:    def __init__(self, in_nc=3, out_nc=3, nc=64, nb=16, upscale=4, act_mode='R', upsample_mode='upconv'):
+80:    def forward(self, x):
+89:class MSRResNet1(nn.Module):
+90:    def __init__(self, in_nc=3, out_nc=3, nc=64, nb=16, upscale=4, act_mode='R', upsample_mode='upconv'):
+121:    def forward(self, x):
+137:def initialize_weights(net_l, scale=1):
+157:def make_layer(block, n_layers):
+164:class ResidualBlock_noBN(nn.Module):
+170:    def __init__(self, nc=64):
+178:    def forward(self, x):
+
+===== FILE: models/network_rrdb.py =====
+14:class RRDB(nn.Module):
+19:    def __init__(self, in_nc=3, out_nc=3, nc=64, nb=23, gc=32, upscale=4, act_mode='L', upsample_mode='upconv'):
+52:    def forward(self, x):
+
+===== FILE: models/network_rrdbnet.py =====
+8:def initialize_weights(net_l, scale=1):
+28:def make_layer(block, n_layers):
+35:class ResidualDenseBlock_5C(nn.Module):
+36:    def __init__(self, nf=64, gc=32, bias=True):
+49:    def forward(self, x):
+58:class RRDB(nn.Module):
+61:    def __init__(self, nf, gc=32):
+67:    def forward(self, x):
+74:class RRDBNet(nn.Module):
+75:    def __init__(self, in_nc=3, out_nc=3, nf=64, nb=23, gc=32, sf=4):
+93:    def forward(self, x):
+
+===== FILE: models/network_rvrt.py =====
+24:def flow_warp(x, flow, interp_mode='bilinear', padding_mode='zeros', align_corners=True):
+60:def make_layer(block, num_blocks, **kwarg):
+76:class BasicModule(nn.Module):
+80:    def __init__(self):
+90:    def forward(self, tensor_input):
+94:class SpyNet(nn.Module):
+102:    def __init__(self, load_path=None, return_levels=[5]):
+120:    def preprocess(self, tensor_input):
+124:    def process(self, ref, supp, w, h, w_floor, h_floor):
+164:    def forward(self, ref, supp):
+179:class GuidedDeformAttnPack(DeformAttnPack):
+195:    def __init__(self, *args, **kwargs):
+235:    def init_offset(self):
+240:    def forward(self, q, k, v, v_prop_warped, flows, return_updateflow):
+263:def window_partition(x, window_size):
+281:def window_reverse(windows, window_size, B, D, H, W):
+300:def get_window_size(x_size, window_size, shift_size=None):
+319:def compute_mask(D, H, W, window_size, shift_size, device):
+337:class Mlp(nn.Module):
+347:    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
+356:    def forward(self, x):
+360:class WindowAttention(nn.Module):
+371:    def __init__(self, dim, window_size, num_heads, qkv_bias=False, qk_scale=None):
+385:    def forward(self, x, mask=None):
+404:    def attention(self, q, k, v, mask, x_shape):
+422:    def get_position_index(self, window_size):
+443:class STL(nn.Module):
+461:    def __init__(self,
+493:    def forward_part1(self, x, mask_matrix):
+536:    def forward_part2(self, x):
+539:    def forward(self, x, mask_matrix):
+562:class STG(nn.Module):
+580:    def __init__(self,
+616:    def forward(self, x):
+640:class RSTB(nn.Module):
+647:    def __init__(self, **kwargs):
+654:    def forward(self, x):
+658:class RSTBWithInputConv(nn.Module):
+670:    def __init__(self, in_channels=3, kernel_size=(1, 3, 3), stride=1, groups=1, num_blocks=2, **kwargs):
+696:    def forward(self, x):
+
+===== FILE: models/network_srmd.py =====
+26:class SRMD(nn.Module):
+27:    def __init__(self, in_nc=19, out_nc=3, nc=128, nb=12, upscale=4, act_mode='R', upsample_mode='pixelshuffle'):
+63:    def forward(self, x):
+
+===== FILE: models/network_swinir.py =====
+14:class Mlp(nn.Module):
+15:    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
+24:    def forward(self, x):
+33:def window_partition(x, window_size):
+48:def window_reverse(windows, window_size, H, W):
+65:class WindowAttention(nn.Module):
+79:    def __init__(self, dim, window_size, num_heads, qkv_bias=True, qk_scale=None, attn_drop=0., proj_drop=0.):
+114:    def forward(self, x, mask=None):
+147:    def extra_repr(self) -> str:
+150:    def flops(self, N):
+164:class SwinTransformerBlock(nn.Module):
+183:    def __init__(self, dim, input_resolution, num_heads, window_size=7, shift_size=0,
+216:    def calculate_mask(self, x_size):
+239:    def forward(self, x, x_size):
+281:    def extra_repr(self) -> str:
+285:    def flops(self):
+300:class PatchMerging(nn.Module):
+309:    def __init__(self, input_resolution, dim, norm_layer=nn.LayerNorm):
+316:    def forward(self, x):
+339:    def extra_repr(self) -> str:
+342:    def flops(self):
+349:class BasicLayer(nn.Module):
+369:    def __init__(self, dim, input_resolution, depth, num_heads, window_size,
+397:    def forward(self, x, x_size):
+407:    def extra_repr(self) -> str:
+410:    def flops(self):
+419:class RSTB(nn.Module):
+442:    def __init__(self, dim, input_resolution, depth, num_heads, window_size,
+481:    def forward(self, x, x_size):
+484:    def flops(self):
+495:class PatchEmbed(nn.Module):
+506:    def __init__(self, img_size=224, patch_size=4, in_chans=3, embed_dim=96, norm_layer=None):
+524:    def forward(self, x):
+530:    def flops(self):
+538:class PatchUnEmbed(nn.Module):
+549:    def __init__(self, img_size=224, patch_size=4, in_chans=3, embed_dim=96, norm_layer=None):
+562:    def forward(self, x, x_size):
+567:    def flops(self):
+572:class Upsample(nn.Sequential):
+580:    def __init__(self, scale, num_feat):
+
+===== FILE: models/network_unet.py =====
+21:class UNetRes(nn.Module):
+22:    def __init__(self, in_nc=3, out_nc=3, nc=[64, 128, 256, 512], nb=4, act_mode='R', downsample_mode='strideconv', upsample_mode='convtranspose', bias=True):
+59:    def forward(self, x0):
+
+===== FILE: models/network_usrnet.py =====
+33:def splits(a, sf):
+48:def p2o(psf, shape):
+72:def upsample(x, sf=3):
+85:def downsample(x, sf=3):
+96:def downsample_np(x, sf=3):
+109:class ResUNet(nn.Module):
+110:    def __init__(self, in_nc=4, out_nc=3, nc=[64, 128, 256, 512], nb=2, act_mode='R', downsample_mode='strideconv', upsample_mode='convtranspose'):
+147:    def forward(self, x):
+179:class DataNet(nn.Module):
+180:    def __init__(self):
+183:    def forward(self, x, FB, FBC, F2B, FBFy, alpha, sf):
+204:class HyPaNet(nn.Module):
+205:    def __init__(self, in_nc=2, out_nc=8, channel=64):
+215:    def forward(self, x):
+228:class USRNet(nn.Module):
+229:    def __init__(self, n_iter=8, h_nc=64, in_nc=4, out_nc=3, nc=[64, 128, 256, 512], nb=2, act_mode='R', downsample_mode='strideconv', upsample_mode='convtranspose'):
+237:    def forward(self, x, k, sf, sigma):
+
+===== FILE: models/network_usrnet_v1.py =====
+33:def splits(a, sf):
+48:def p2o(psf, shape):
+72:def upsample(x, sf=3):
+85:def downsample(x, sf=3):
+96:def downsample_np(x, sf=3):
+109:class ResUNet(nn.Module):
+110:    def __init__(self, in_nc=4, out_nc=3, nc=[64, 128, 256, 512], nb=2, act_mode='R', downsample_mode='strideconv', upsample_mode='convtranspose'):
+147:    def forward(self, x):
+179:class DataNet(nn.Module):
+180:    def __init__(self):
+183:    def forward(self, x, FB, FBC, F2B, FBFy, alpha, sf):
+204:class HyPaNet(nn.Module):
+205:    def __init__(self, in_nc=2, out_nc=8, channel=64):
+215:    def forward(self, x):
+228:class USRNet(nn.Module):
+229:    def __init__(self, n_iter=8, h_nc=64, in_nc=4, out_nc=3, nc=[64, 128, 256, 512], nb=2, act_mode='R', downsample_mode='strideconv', upsample_mode='convtranspose'):
+237:    def forward(self, x, k, sf, sigma):
+
+===== FILE: models/network_vrt.py =====
+24:class ModulatedDeformConv(nn.Module):
+26:    def __init__(self,
+57:    def init_weights(self):
+71:class ModulatedDeformConvPack(ModulatedDeformConv):
+89:    def __init__(self, *args, **kwargs):
+102:    def init_weights(self):
+117:def _no_grad_trunc_normal_(tensor, mean, std, a, b):
+121:    def norm_cdf(x):
+155:def trunc_normal_(tensor, mean=0., std=1., a=-2., b=2.):
+181:def drop_path(x, drop_prob: float = 0., training: bool = False):
+195:class DropPath(nn.Module):
+200:    def __init__(self, drop_prob=None):
+204:    def forward(self, x):
+208:def flow_warp(x, flow, interp_mode='bilinear', padding_mode='zeros', align_corners=True, use_pad_mask=False):
+267:class DCNv2PackFlowGuided(ModulatedDeformConvPack):
+289:    def __init__(self, *args, **kwargs):
+307:    def init_offset(self):
+313:    def forward(self, x, x_flow_warpeds, x_current, flows):
+341:class BasicModule(nn.Module):
+345:    def __init__(self):
+355:    def forward(self, tensor_input):
+359:class SpyNet(nn.Module):
+367:    def __init__(self, load_path=None, return_levels=[5]):
+385:    def preprocess(self, tensor_input):
+389:    def process(self, ref, supp, w, h, w_floor, h_floor):
+428:    def forward(self, ref, supp):
+443:def window_partition(x, window_size):
+461:def window_reverse(windows, window_size, B, D, H, W):
+480:def get_window_size(x_size, window_size, shift_size=None):
+499:def compute_mask(D, H, W, window_size, shift_size, device):
+517:class Upsample(nn.Sequential):
+525:    def __init__(self, scale, num_feat):
+532:            def __init__(self):
+535:            def forward(self, x):
+559:class Mlp_GEGLU(nn.Module):
+569:    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
+580:    def forward(self, x):
+588:class WindowAttention(nn.Module):
+600:    def __init__(self, dim, window_size, num_heads, qkv_bias=False, qk_scale=None, mut_attn=True):
+627:    def forward(self, x, mask=None):
+
+===== FILE: models/select_model.py =====
+9:def define_Model(opt):
+
+===== FILE: models/select_network.py =====
+16:def define_G(opt):
+273:def define_D(opt):
+340:def define_F(opt, use_bn=False):
+363:def init_weights(net, init_type='xavier_uniform', init_bn_type='uniform', gain=1):
+378:    def init_fn(m, init_type='xavier_uniform', init_bn_type='uniform', gain=1):
+
+===== FILE: options/rvrt/001_train_rvrt_videosr_bi_reds_30frames.json =====
+{
+  "task": "001_train_rvrt_videosr_bi_reds_30frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/REDS/train_sharp_with_val.lmdb"
+      , "dataroot_lq": "trainsets/REDS/train_sharp_bicubic_with_val.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_REDS_GT.txt"
+      , "filename_tmpl": "08d"
+      , "filename_ext": "png"
+      , "val_partition": "REDS4"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 30
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+
+===== FILE: options/rvrt/002_train_rvrt_videosr_bi_vimeo_14frames.json =====
+{
+  "task": "002_train_rvrt_videosr_bi_vimeo_14frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": "model_zoo/rvrt/001_RVRT_videosr_bi_REDS_30frames.pth"
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainVimeoDataset"
+      , "dataroot_gt": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "dataroot_lq": "trainsets/vimeo90k/vimeo90k_train_LR7frames.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_Vimeo90K_train_GT.txt"
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": -1
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": true
+      , "use_hflip": true
+      , "use_rot": true
+      , "mirror_sequence": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "VideoRecurrentTestDataset"
+
+===== FILE: options/rvrt/003_train_rvrt_videosr_bd_vimeo_14frames.json =====
+{
+  "task": "003_train_rvrt_videosr_bd_vimeo_14frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": "model_zoo/rvrt/001_RVRT_videosr_bi_REDS_30frames.pth"
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainVimeoDataset"
+      , "dataroot_gt": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "dataroot_lq": "trainsets/vimeo90k/vimeo90k_train_BDLR7frames.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_Vimeo90K_train_GT.txt"
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": -1
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": true
+      , "use_hflip": true
+      , "use_rot": true
+      , "mirror_sequence": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "VideoRecurrentTestDataset"
+
+===== FILE: options/rvrt/004_train_rvrt_videodeblurring_dvd.json =====
+{
+  "task": "004_train_rvrt_videodeblurring_dvd"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/DVD/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/DVD/train_GT_blurred.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_DVD_train_GT.txt"
+      , "filename_tmpl": "05d"
+      , "filename_ext": "jpg"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 16
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+
+===== FILE: options/rvrt/005_train_rvrt_videodeblurring_gopro.json =====
+{
+  "task": "005_train_rvrt_videodeblurring_gopro"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/GoPro/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/GoPro/train_GT_blurred.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_GoPro_train_GT.txt"
+      , "filename_tmpl": "06d"
+      , "filename_ext": "png"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 16
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+
+===== FILE: options/rvrt/006_train_rvrt_videodenoising_davis.json =====
+{
+  "task": "006_train_rvrt_videodenoising_davis"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainNonblindDenoisingDataset"
+      , "dataroot_gt": "trainsets/DAVIS/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/DAVIS/train_GT.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_DAVIS_train_GT.txt"
+      , "filename_tmpl": "05d"
+      , "filename_ext": "jpg"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 16
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "sigma_min": 0
+      , "sigma_max": 50
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+
+===== FILE: options/swinir/train_swinir_car_jpeg.json =====
+{
+  "task": "swinir_car_jpeg_40"     // JPEG compression artifact reduction for quality factor 10/20/30/40. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "is_color": false // color or grayscale
+
+  , "path": {
+    "root": "dejpeg"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model. We fine-tune quality=10/20/30 models from quality=40 model, so that `G_optimizer_lr` and `G_scheduler_milestones` can be halved to save time.
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "jpeg"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images) + Flickr2K (2650 images) + BSD500 (400 training&testing images) + WED(4744 images) in SwinIR
+      , "dataroot_L": null              // path of L training dataset
+
+      , "H_size": 126                   // patch_size
+      , "quality_factor": 40            //  10 | 20 | 30 | 40.
+      , "quality_factor_test": 40       //
+      , "is_color": false               //
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 8      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =1x8=8 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "jpeg"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/LIVE1"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+
+      , "quality_factor": 40            //  10 | 20 | 30 | 40.
+      , "quality_factor_test": 40       //
+      , "is_color": false               //
+
+
+===== FILE: options/swinir/train_swinir_denoising_color.json =====
+{
+  "task": "swinir_denoising_color_15"     //  color Gaussian denoising for noise level 15/25/50. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images) + Flickr2K (2650 images) + BSD500 (400 training&testing images) + WED(4744 images) in SwinIR
+      , "dataroot_L": null              // path of L training dataset
+
+      , "H_size": 128                   // patch_size
+      , "sigma": 15                     //  15 | 25 | 50. We fine-tune sigma=25/50 models from sigma=15 model, so that `G_optimizer_lr` and `G_scheduler_milestones` can be halved to save time.
+      , "sigma_test": 15                // 
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 8      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =1x8=8 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/McMaster"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+
+      , "sigma": 15                     // 
+      , "sigma_test": 15                // 
+
+    }
+  }
+
+===== FILE: options/swinir/train_swinir_denoising_gray.json =====
+{
+  "task": "swinir_denoising_gray_15"     //  grayscale Gaussian denoising for noise level 15/25/50. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "n_channels": 1  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model. We fine-tune sigma=25/50 models from sigma=15 model, so that `G_optimizer_lr` and `G_scheduler_milestones` can be halved to save time.
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images) + Flickr2K (2650 images) + BSD500 (400 training&testing images) + WED(4744 images) in SwinIR
+      , "dataroot_L": null              // path of L training dataset
+
+      , "H_size": 128                   // patch_size
+      , "sigma": 15                     //  15 | 25 | 50.
+      , "sigma_test": 15                //
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 8      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =1x8=8 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/set12"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+
+      , "sigma": 15                     // 
+      , "sigma_test": 15                // 
+
+    }
+  }
+
+===== FILE: options/swinir/train_swinir_sr_classical.json =====
+{
+  "task": "swinir_sr_classical_patch48_x2"     //  classical image sr for x2/x3/x4/x8. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "scale": 2       // 2 | 3 | 4 | 8
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model. We fine-tune X3/X4/X8 models from X2 model, so that `G_optimizer_lr` and `G_scheduler_milestones` can be halved to save time.
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images)
+      , "dataroot_L": "trainsets/trainL"              // path of L training dataset
+
+      , "H_size": 96                   // 96/144|192/384 | 128/192/256/512. LR patch size is set to 48 or 64 when compared with RCAN or RRDB.
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 32      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =4x8=32 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/Set5/HR"  // path of H testing dataset
+      , "dataroot_L": "testsets/Set5/LR_bicubic/X2"              // path of L testing dataset
+
+    }
+  }
+
+  , "netG": {
+    "net_type": "swinir" 
+    , "upscale": 2                      // 2 | 3  | 4 | 8
+
+===== FILE: options/swinir/train_swinir_sr_lightweight.json =====
+{
+  "task": "swinir_sr_lightweight_x2"     //  classical image sr for x2/x3/x4. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "scale": 2       // 2 | 3 | 4
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model. We fine-tune X3/X4 models from X2 model, so that `G_optimizer_lr` and `G_scheduler_milestones` can be halved to save time.
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images)
+      , "dataroot_L": "trainsets/trainL"              // path of L training dataset
+
+      , "H_size": 128                   // 128/192/256/512.
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 64      // Total batch size =8x8=64 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/Set5/HR"  // path of H testing dataset
+      , "dataroot_L": "testsets/Set5/LR_bicubic/X2"              // path of L testing dataset
+
+    }
+  }
+
+  , "netG": {
+    "net_type": "swinir" 
+    , "upscale": 2                      // 2 | 3  | 4
+
+===== FILE: options/swinir/train_swinir_sr_realworld_x4_gan.json =====
+{
+  "task": "swinir_sr_realworld_x4_gan" // real-world image sr. root/task/images|models|options
+  , "model": "gan"        // "gan"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+
+  , "scale": 4       // broadcast to "datasets"
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"  // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null  // path of pretrained model
+    , "pretrained_netD": null  // path of pretrained model
+	, "pretrained_netE": null  // path of pretrained model
+	}
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "blindsr"       // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images) + Flickr2K (2650 images) + + OST (10324 images)
+      , "dataroot_L": null              // path of L training dataset
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 256                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 64
+      , "use_sharp": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 32      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =4x8=32 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "blindsr"
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 256                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 64
+
+===== FILE: options/swinir/train_swinir_sr_realworld_x4_psnr.json =====
+{
+  "task": "swinir_sr_realworld_x4_psnr"     // real-world image sr. root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+
+  , "scale": 4       // broadcast to "datasets"
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"            // "denoising" | "superresolution" | "dejpeg"
+    , "pretrained_netG": null      // path of pretrained model
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "blindsr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset. DIV2K (800 training images) + Flickr2K (2650 images) + + OST (10324 images)
+      , "dataroot_L": null            // path of L training dataset
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 256                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             //
+      , "lq_patchsize": 64
+      , "use_sharp": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 16
+      , "dataloader_batch_size": 32      // batch size 1 | 16 | 32 | 48 | 64 | 128. Total batch size =4x8=32 in SwinIR
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"         // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch" | "jpeg"
+      , "dataroot_H": "testsets/Set5/HR"  // path of H testing dataset
+      , "dataroot_L": "testsets/Set5/LR_bicubic/X4"              // path of L testing dataset
+
+    }
+  }
+
+===== FILE: options/vrt/001_train_vrt_videosr_bi_reds_6frames.json =====
+{
+  "task": "001_train_vrt_videosr_bi_reds_6frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/REDS/train_sharp_with_val.lmdb"
+      , "dataroot_lq": "trainsets/REDS/train_sharp_bicubic_with_val.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_REDS_GT.txt"
+      , "filename_tmpl": "08d"
+      , "filename_ext": "png"
+      , "val_partition": "REDS4"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+
+===== FILE: options/vrt/002_train_vrt_videosr_bi_reds_16frames.json =====
+{
+  "task": "002_train_vrt_videosr_bi_reds_16frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/REDS/train_sharp_with_val.lmdb"
+      , "dataroot_lq": "trainsets/REDS/train_sharp_bicubic_with_val.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_REDS_GT.txt"
+      , "filename_tmpl": "08d"
+      , "filename_ext": "png"
+      , "val_partition": "REDS4"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+
+===== FILE: options/vrt/003_train_vrt_videosr_bi_vimeo_7frames.json =====
+{
+  "task": "003_train_vrt_videosr_bi_vimeo_7frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": "model_zoo/vrt/002_VRT_videosr_bi_REDS_16frames.pth"
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainVimeoDataset"
+      , "dataroot_gt": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "dataroot_lq": "trainsets/vimeo90k/vimeo90k_train_LR7frames.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_Vimeo90K_train_GT.txt"
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 7
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": true
+      , "use_hflip": true
+      , "use_rot": true
+      , "pad_sequence": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "VideoRecurrentTestDataset"
+
+===== FILE: options/vrt/004_train_vrt_videosr_bd_vimeo_7frames.json =====
+{
+  "task": "004_train_vrt_videosr_bd_vimeo_7frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 4
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": "model_zoo/vrt/002_VRT_videosr_bi_REDS_16frames.pth"
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainVimeoDataset"
+      , "dataroot_gt": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "dataroot_lq": "trainsets/vimeo90k/vimeo90k_train_BDLR7frames.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_Vimeo90K_train_GT.txt"
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 7
+      , "gt_size": 256
+      , "interval_list": [1]
+      , "random_reverse": true
+      , "use_hflip": true
+      , "use_rot": true
+      , "pad_sequence": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "VideoRecurrentTestDataset"
+
+===== FILE: options/vrt/005_train_vrt_videodeblurring_dvd.json =====
+{
+  "task": "005_train_vrt_videodeblurring_dvd"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/DVD/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/DVD/train_GT_blurred.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_DVD_train_GT.txt"
+      , "filename_tmpl": "05d"
+      , "filename_ext": "jpg"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 192
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+
+===== FILE: options/vrt/006_train_vrt_videodeblurring_gopro.json =====
+{
+  "task": "006_train_vrt_videodeblurring_gopro"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/GoPro/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/GoPro/train_GT_blurred.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_GoPro_train_GT.txt"
+      , "filename_tmpl": "06d"
+      , "filename_ext": "png"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 192
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+
+===== FILE: options/vrt/007_train_vrt_videodeblurring_reds.json =====
+{
+  "task": "007_train_vrt_videodeblurring_reds"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainDataset"
+      , "dataroot_gt": "trainsets/REDS/train_sharp_with_val.lmdb"
+      , "dataroot_lq": "trainsets/REDS/train_blur_with_val.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_REDS_GT.txt"
+      , "filename_tmpl": "08d"
+      , "filename_ext": "png"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 192
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+
+===== FILE: options/vrt/008_train_vrt_videodenoising_davis.json =====
+{
+  "task": "008_train_vrt_videodenoising_davis"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainNonblindDenoisingDataset"
+      , "dataroot_gt": "trainsets/DAVIS/train_GT.lmdb"
+      , "dataroot_lq": "trainsets/DAVIS/train_GT.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_DAVIS_train_GT.txt"
+      , "filename_tmpl": "05d"
+      , "filename_ext": "jpg"
+      , "test_mode": false
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 6
+      , "gt_size": 192
+      , "interval_list": [1]
+      , "random_reverse": false
+      , "use_hflip": true
+      , "use_rot": true
+
+      , "sigma_min": 0
+      , "sigma_max": 50
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+
+===== FILE: options/vrt/009_train_vrt_videofi_vimeo_4frames.json =====
+{
+  "task": "009_train_vrt_videofi_vimeo_4frames"
+  , "model": "vrt"
+  , "gpu_ids": [0,1,2,3,4,5,6,7]
+  , "dist": true
+  , "find_unused_parameters": false
+  , "use_static_graph": true
+
+  ,"scale": 1
+  , "n_channels": 3
+
+  , "path": {
+    "root": "experiments"
+    , "pretrained_netG": null
+    , "pretrained_netE": null
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "VideoRecurrentTrainVimeoVFIDataset"
+      , "dataroot_gt": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "dataroot_lq": "trainsets/vimeo90k/vimeo90k_train_GT_all.lmdb"
+      , "meta_info_file": "data/meta_info/meta_info_Vimeo90K_train_GT.txt"
+      , "io_backend": {"type": "lmdb"}
+      , "num_frame": 7
+      , "temporal_scale": 2
+      , "gt_size": 192
+      , "interval_list": [1]
+      , "random_reverse": true
+      , "use_hflip": true
+      , "use_rot": true
+      , "color_jitter": true
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 32
+      , "dataloader_batch_size": 8
+    }
+    , "test": {
+      "name": "test_dataset"
+
+===== FILE: options/my_train_usrnet.json =====
+{
+  "task": "my-usrnet" //  
+  , "model": "plain4" // "plain" | "gan"
+  , "gpu_ids": [0]
+  , "scale": 4
+  , "n_channels": 3 // 1 for grayscale image restoration, 3 for color image restoration
+  , "merge_bn": false
+  , "merge_bn_startpoint": 300000
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "usrnet"
+      , "dataroot_H": "trainsets/trainH/DIV2K/DIV2K_train_HR"
+      , "dataroot_L": null
+      , "H_size": 192 // 128 | 192
+      , "use_flip": true
+      , "use_rot": true
+      , "scales": [4]
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 20
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "usrnet"
+      , "dataroot_H": "testsets/DIV2K/DIV2K_valid_HR"
+      , "dataroot_L": null
+    }
+  }
+
+  , "path": {
+    "root": "SR"
+    , "pretrained_netG": null
+  }
+
+  , "netG": {
+    "net_type": "usrnet" // "srresnet" | "rrdbnet" | "rcan" | "unet" | "unetplus" | "nonlocalunet"
+    , "n_iter": 8 // 8
+    , "h_nc": 64 // 64
+
+===== FILE: options/train_bsrgan_x4_gan.json =====
+{
+  "task": "bsrgan_x4_gan" // root/task/images|models|options
+  , "model": "gan"        // "gan"
+  , "gpu_ids": [0]        // [0,1,2,3] for 4 GPUs
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"  // "denoising" | "superresolution"
+    , "pretrained_netG": null  // path of pretrained model
+    , "pretrained_netD": null  // path of pretrained model
+	, "pretrained_netE": null  // path of pretrained model
+	}
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // fixed
+      , "dataset_type": "blindsr"       // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 320                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 72
+      , "use_sharp": false
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8     // 8 | 32 | 64
+      , "dataloader_batch_size": 4      // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // fixed
+      , "dataset_type": "blindsr"
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 320                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 72
+
+===== FILE: options/train_bsrgan_x4_psnr.json =====
+{
+  "task": "bsrgan_x4_psnr"     //  root/task/images|models|options
+  , "model": "plain"           // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]             // [0,1,2,3] for 4 GPUs
+  , "dist": true
+
+  , "scale": 4       // broadcast to "datasets"
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // fixed
+      , "dataset_type": "blindsr"       // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 320                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 72
+      , "use_sharp": false
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8     // 8 | 32 | 64
+      , "dataloader_batch_size": 4      // batch size for all GPUs, 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // fixed
+      , "dataset_type": "blindsr"
+
+      , "degradation_type": "bsrgan"    // "bsrgan" | "bsrgan_plus"
+      , "H_size": 320                   // patch_size 256 | 288 | 320
+      , "shuffle_prob": 0.1             // 
+      , "lq_patchsize": 72
+
+===== FILE: options/train_dncnn.json =====
+{
+  "task": "dncnn25"  //  root/task/images-models-options
+  , "model": "plain" // "plain"
+  , "gpu_ids": [0]
+
+  , "scale": 1       // broadcast to "netG" if SISR
+  , "n_channels": 1  // broadcast to "datasets", 1 for grayscale, 3 for color
+
+  , "merge_bn": true               // BN for DnCNN
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" for dncnn,  | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 40                    // patch size 40 | 64 | 96 | 128 | 192
+
+      , "sigma": 25                     // 15, 25, 50 for DnCNN | [0, 75] for FFDNet and FDnCNN
+      , "sigma_test": 25                // 15, 25, 50 for DnCNN and ffdnet
+
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "dncnn"         // "dncnn" | "dnpatch" for dncnn,  | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/bsd68"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+
+      , "sigma": 25                     // 15, 25, 50 for DnCNN | [0, 75] for FFDNet and FDnCNN
+      , "sigma_test": 25                // 15, 25, 50 for DnCNN and ffdnet
+
+
+===== FILE: options/train_dpsr.json =====
+{
+  "task": "dpsr"     //  root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 50] // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "dpsr"          // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 32     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "dpsr"          // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"   // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "dpsr"  // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 4        // input channel number
+
+===== FILE: options/train_drunet.json =====
+{
+  "task": "drunet"  //  root/task/images-models-options
+  , "model": "plain" // "plain"
+  , "gpu_ids": [0]
+
+  , "scale": 1       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 50]      // 15, 25, 50 for DnCNN | [0, 75] for FFDNet and FDnCNN
+  , "sigma_test": 25 // 15, 25, 50 for DnCNN and ffdnet
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "fdncnn"         // "dncnn" | "dnpatch" for dncnn,  | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 128                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "fdncnn"         // "dncnn" | "dnpatch" for dncnn,  | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set12"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "drunet" // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "srresnet0" |  "srresnet1" | "rrdbnet" 
+    , "in_nc": 4        // input channel number
+    , "out_nc": 3       // ouput channel number
+    , "nc": [64, 128, 256, 512]          // 64 for "dncnn"
+    , "nb": 4          // 17 for "dncnn", 20 for dncnn3, 16 for "srresnet"
+
+===== FILE: options/train_fdncnn.json =====
+{
+  "task": "fdncnn"  //  root/task/images-models-options
+  , "model": "plain" // "plain"
+  , "gpu_ids": [0]
+
+  , "scale": 1       // broadcast to "netG" if SISR
+  , "n_channels": 1  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 75] // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 25 // 15, 25, 50 for DnCNN, FDnCNN and FFDNet
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "fdncnn"        // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 48                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "fdncnn"        // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/bsd68"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "fdncnn" // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 2        // input channel number
+
+===== FILE: options/train_ffdnet.json =====
+{
+  "task": "ffdnet"    //  root/task/images-models-options
+  , "model": "plain2" // "plain"
+  , "gpu_ids": [0]
+
+  , "scale": 1       // broadcast to "netG" if SISR
+  , "n_channels": 1  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 75] // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 25 // 15, 25, 50 for DnCNN, FDnCNN and FFDNet
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "denoising"            // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "ffdnet"        // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 64                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "ffdnet"        // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/bsd68"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "ffdnet" // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 1        // input channel number
+
+===== FILE: options/train_imdn.json =====
+{
+  "task": "imdn"     //  root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": 0       // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"   // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "imdn"  // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 3        // input channel number
+
+===== FILE: options/train_msrresnet_gan.json =====
+{
+  "task": "msrresnet_gan" //  
+  , "model": "gan" // "gan"
+  , "gpu_ids": [0]
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 50] // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"  // "denoising" | "superresolution"
+    , "pretrained_netG": null  // path of pretrained model
+    , "pretrained_netD": null  // path of pretrained model
+	, "pretrained_netE": null  // path of pretrained model
+	}
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"          // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 32     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"   // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+
+===== FILE: options/train_msrresnet_psnr.json =====
+{
+  "task": "msrresnet_psnr"     //  root/task/images-models-options, pay attention to the difference between "msrresnet0" and "msrresnet1"
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]
+  , "dist": true
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": 0       // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+    , "pretrained_netE": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 32     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"  // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+
+===== FILE: options/train_rrdb_psnr.json =====
+{
+  "task": "rrdb"     //  root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": 0       // unused, 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // unused, 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // unused, if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // unused, merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 16     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "sr"            // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"   // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "rrdb"  // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 3        // input channel number
+
+===== FILE: options/train_srmd.json =====
+{
+  "task": "srmd"     //  root/task/images-models-options
+  , "model": "plain" // "plain" | "plain2" if two inputs
+  , "gpu_ids": [0]
+
+  , "scale": 4       // broadcast to "netG" if SISR
+  , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
+  , "sigma": [0, 50] // 15, 25, 50 for DnCNN | [0, 75] for FDnCNN and FFDNet
+  , "sigma_test": 0  // 15, 25, 50 for DnCNN, FDnCNN and FFDNet, 0 for SR
+
+  , "merge_bn": false              // if no BN exists, set false
+  , "merge_bn_startpoint": 400000  // merge BN after N iterations
+
+  , "path": {
+    "root": "superresolution"      // "denoising" | "superresolution"
+    , "pretrained_netG": null      // path of pretrained model
+  }
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"           // just name
+      , "dataset_type": "srmd"          // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "trainsets/trainH"// path of H training dataset
+      , "dataroot_L": null              // path of L training dataset
+      , "H_size": 96                    // patch size 40 | 64 | 96 | 128 | 192
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 64     // batch size 1 | 16 | 32 | 48 | 64 | 128
+    }
+    , "test": {
+      "name": "test_dataset"            // just name
+      , "dataset_type": "srmd"          // "dncnn" | "dnpatch" | "fdncnn" | "ffdnet" | "sr" | "srmd" | "dpsr" | "plain" | "plainpatch"
+      , "dataroot_H": "testsets/set5"   // path of H testing dataset
+      , "dataroot_L": null              // path of L testing dataset
+    }
+  }
+
+  , "netG": {
+    "net_type": "srmd"  // "dncnn" | "fdncnn" | "ffdnet" | "srmd" | "dpsr" | "msrresnet0" |  "msrresnet1" | "rrdb" 
+    , "in_nc": 19       // input channel number
+
+===== FILE: options/train_usrnet.json =====
+{
+  "task": "usrnet" //  
+  , "model": "plain4" // "plain" | "gan"
+  , "gpu_ids": [0]
+  , "scale": 4
+  , "n_channels": 3 // 1 for grayscale image restoration, 3 for color image restoration
+  , "merge_bn": false
+  , "merge_bn_startpoint": 300000
+
+  , "datasets": {
+    "train": {
+      "name": "train_dataset"
+      , "dataset_type": "usrnet"
+      , "dataroot_H": "trainsets/trainH"
+      , "dataroot_L": null
+      , "H_size": 96 // 128 | 192
+      , "use_flip": true
+      , "use_rot": true
+      , "scales": [1, 2, 3, 4]
+      , "dataloader_shuffle": true
+      , "dataloader_num_workers": 8
+      , "dataloader_batch_size": 48
+    }
+    , "test": {
+      "name": "test_dataset"
+      , "dataset_type": "usrnet"
+      , "dataroot_H": "testsets/set5"
+      , "dataroot_L": null
+    }
+  }
+
+  , "path": {
+    "root": "SR"
+    , "pretrained_netG": null
+  }
+
+  , "netG": {
+    "net_type": "usrnet" // "srresnet" | "rrdbnet" | "rcan" | "unet" | "unetplus" | "nonlocalunet"
+    , "n_iter": 6 // 8
+    , "h_nc": 32 // 64
+
+===== FILE: retinaface/data_faces/__init__.py =====
+
+===== FILE: retinaface/data_faces/config.py =====
+
+===== FILE: retinaface/data_faces/data_augment.py =====
+7:def _crop(image, boxes, labels, landm, img_dim):
+80:def _distort(image):
+82:    def _convert(image, alpha=1, beta=0):
+141:def _expand(image, boxes, fill, p):
+167:def _mirror(image, boxes, landms):
+189:def _pad_to_square(image, rgb_mean, pad_image_flag):
+200:def _resize_subtract_mean(image, insize, rgb_mean):
+209:class preproc(object):
+211:    def __init__(self, img_dim, rgb_means):
+215:    def __call__(self, image, targets):
+
+===== FILE: retinaface/data_faces/wider_face.py =====
+9:class WiderFaceDetection(data.Dataset):
+10:    def __init__(self, txt_path, preproc=None):
+37:    def __len__(self):
+40:    def __getitem__(self, index):
+79:def detection_collate(batch):
+
+===== FILE: retinaface/facemodels/__init__.py =====
+
+===== FILE: retinaface/facemodels/net.py =====
+9:def conv_bn(inp, oup, stride = 1, leaky = 0):
+16:def conv_bn_no_relu(inp, oup, stride):
+22:def conv_bn1X1(inp, oup, stride, leaky=0):
+29:def conv_dw(inp, oup, stride, leaky=0.1):
+40:class SSH(nn.Module):
+41:    def __init__(self, in_channel, out_channel):
+55:    def forward(self, input):
+68:class FPN(nn.Module):
+69:    def __init__(self,in_channels_list,out_channels):
+81:    def forward(self, input):
+102:class MobileNetV1(nn.Module):
+103:    def __init__(self):
+128:    def forward(self, x):
+
+===== FILE: retinaface/facemodels/retinaface.py =====
+14:class ClassHead(nn.Module):
+15:    def __init__(self,inchannels=512,num_anchors=3):
+20:    def forward(self,x):
+26:class BboxHead(nn.Module):
+27:    def __init__(self,inchannels=512,num_anchors=3):
+31:    def forward(self,x):
+37:class LandmarkHead(nn.Module):
+38:    def __init__(self,inchannels=512,num_anchors=3):
+42:    def forward(self,x):
+48:class RetinaFace(nn.Module):
+49:    def __init__(self, cfg = None, phase = 'train'):
+89:    def _make_class_head(self,fpn_num=3,inchannels=64,anchor_num=2):
+95:    def _make_bbox_head(self,fpn_num=3,inchannels=64,anchor_num=2):
+101:    def _make_landmark_head(self,fpn_num=3,inchannels=64,anchor_num=2):
+107:    def forward(self,inputs):
+
+===== FILE: retinaface/layers/functions/prior_box.py =====
+7:class PriorBox(object):
+8:    def __init__(self, cfg, image_size=None, phase='train'):
+17:    def forward(self):
+
+===== FILE: retinaface/layers/modules/__init__.py =====
+
+===== FILE: retinaface/layers/modules/multibox_loss.py =====
+9:class MultiBoxLoss(nn.Module):
+32:    def __init__(self, num_classes, overlap_thresh, prior_for_matching, bkg_label, neg_mining, neg_pos, neg_overlap, encode_target):
+44:    def forward(self, predictions, priors, targets):
+
+===== FILE: retinaface/layers/__init__.py =====
+
+===== FILE: retinaface/utils_faces/nms/__init__.py =====
+
+===== FILE: retinaface/utils_faces/nms/py_cpu_nms.py =====
+10:def py_cpu_nms(dets, thresh):
+
+===== FILE: retinaface/utils_faces/__init__.py =====
+
+===== FILE: retinaface/utils_faces/box_utils.py =====
+5:def point_form(boxes):
+17:def center_size(boxes):
+29:def intersect(box_a, box_b):
+50:def jaccard(box_a, box_b):
+71:def matrix_iou(a, b):
+84:def matrix_iof(a, b):
+96:def match(threshold, truths, priors, variances, labels, landms, loc_t, conf_t, landm_t, idx):
+156:def encode(matched, priors, variances):
+179:def encode_landm(matched, priors, variances):
+209:def decode(loc, priors, variances):
+229:def decode_landm(pre, priors, variances):
+250:def log_sum_exp(x):
+264:def nms(boxes, scores, overlap=0.5, top_k=200):
+
+===== FILE: retinaface/utils_faces/timer.py =====
+11:class Timer(object):
+13:    def __init__(self):
+20:    def tic(self):
+25:    def toc(self, average=True):
+35:    def clear(self):
+
+===== FILE: retinaface/retinaface_detection.py =====
+25:class RetinaFaceDetection(object):
+26:    def __init__(self, model_path):
+36:    def check_keys(self, pretrained_state_dict):
+45:    def remove_prefix(self, state_dict, prefix):
+50:    def load_model(self, load_to_cpu=False):
+63:    def detect(self, img_raw, resize=1, confidence_threshold=0.9, nms_threshold=0.4, top_k=5000, keep_top_k=750, save_image=False):
+
+===== FILE: scripts/data_preparation/create_lmdb.py =====
+8:def create_lmdb_for_div2k():
+45:def prepare_keys_div2k(folder_path):
+62:def create_lmdb_for_reds():
+98:def prepare_keys_reds(folder_path):
+115:def create_lmdb_for_vimeo90k():
+136:def create_lmdb_for_vimeo90k_bd():
+150:def prepare_keys_vimeo90k(folder_path, train_list_path, mode):
+181:def create_lmdb_for_dvd():
+203:def prepare_keys_dvd(folder_path):
+220:def create_lmdb_for_gopro():
+242:def prepare_keys_gopro(folder_path):
+259:def create_lmdb_for_davis():
+274:def prepare_keys_davis(folder_path):
+292:def create_lmdb_for_ldv():
+320:def prepare_keys_ldv(folder_path):
+337:def create_lmdb_for_reds_orig():
+353:def prepare_keys_reds_orig(folder_path):
+
+===== FILE: scripts/data_preparation/extract_subimages.py =====
+11:def main():
+78:def extract_subimages(opt):
+108:def worker(path, opt):
+
+===== FILE: scripts/data_preparation/prepare_DAVIS.py =====
+6:def generate_meta_info_txt(data_path, meta_info_path):
+
+===== FILE: scripts/data_preparation/prepare_DVD.py =====
+6:def rearrange_dir_structure(dataset_path):
+30:def generate_meta_info_txt(data_path, meta_info_path):
+
+===== FILE: scripts/data_preparation/prepare_GoPro_as_video.py =====
+6:def rearrange_dir_structure(dataset_path, traintest='train'):
+29:def generate_meta_info_txt(data_path, meta_info_path):
+
+===== FILE: scripts/data_preparation/prepare_UDM10.py =====
+6:def rearrange_dir_structure(dataset_path):
+
+===== FILE: scripts/data_preparation/regroup_reds_dataset.py =====
+5:def regroup_reds_dataset(train_path, val_path):
+
+===== FILE: scripts/matlab_scripts/evaluate_video_deblurring.m =====
+
+===== FILE: scripts/matlab_scripts/generate_LR_UDM10_BD.m =====
+1:function generate_LR_UDM10()
+41:function img = modcrop(img, modulo)
+55:function img = BD_degradation(img, up_scale, sigma)
+
+===== FILE: scripts/matlab_scripts/generate_LR_Vimeo90K.m =====
+1:function generate_LR_Vimeo90K()
+38:function img = modcrop(img, modulo)
+
+===== FILE: scripts/matlab_scripts/generate_LR_Vimeo90K_BD.m =====
+1:function generate_LR_Vimeo90K()
+41:function img = modcrop(img, modulo)
+55:function img = BD_degradation(img, up_scale, sigma)
+
+===== FILE: utils/utils_alignfaces.py =====
+22:def _umeyama(src, dst, estimate_scale=True, scale=1.0):
+93:class FaceWarpException(Exception):
+94:    def __str__(self):
+99:def get_reference_facial_points(output_size=None,
+184:def get_affine_transform_matrix(src_pts, dst_pts):
+207:def warp_and_crop_face(src_img,
+
+===== FILE: utils/utils_blindsr.py =====
+29:def modcrop_np(img, sf):
+48:def analytic_kernel(k):
+64:def anisotropic_Gaussian(ksize=15, theta=np.pi, l1=6, l2=6):
+86:def gm_blur_kernel(mean, cov, size=15):
+99:def shift_pixel(x, sf, upper_left=True):
+128:def blur(x, k):
+146:def gen_kernel(k_size=np.array([15, 15]), scale_factor=np.array([4, 4]), min_var=0.6, max_var=10., noise_level=0):
+188:def fspecial_gaussian(hsize, sigma):
+202:def fspecial_laplacian(alpha):
+211:def fspecial(filter_type, *args, **kwargs):
+228:def bicubic_degradation(x, sf=3):
+241:def srmd_degradation(x, k, sf=3):
+266:def dpsr_degradation(x, k, sf=3):
+292:def classical_degradation(x, k, sf=3):
+309:def add_sharpening(img, weight=0.5, radius=50, threshold=10):
+335:def add_blur(img, sf=4):
+349:def add_resize(img, sf=4):
+363:def add_Gaussian_noise(img, noise_level1=2, noise_level2=25):
+380:def add_speckle_noise(img, noise_level1=2, noise_level2=25):
+398:def add_Poisson_noise(img):
+412:def add_JPEG_noise(img):
+421:def random_crop(lq, hq, sf=4, lq_patchsize=64):
+432:def degradation_bsrgan(img, sf=4, lq_patchsize=72, isp_model=None):
+524:def degradation_bsrgan_plus(img, sf=4, shuffle_prob=0.5, use_sharp=False, lq_patchsize=64, isp_model=None):
+
+===== FILE: utils/utils_bnorm.py =====
+20:def deleteLayer(model, layer_type=nn.BatchNorm2d):
+32:def merge_bn(model):
+69:def add_bn(model):
+84:def tidy_sequential(model):
+
+===== FILE: utils/utils_deblur.py =====
+21:def get_uperleft_denominator(img, kernel):
+34:def get_uperleft_denominator_pytorch(img, kernel):
+47:def c2c(x):
+51:def r2c(x):
+55:def cdiv(x, y):
+62:def cabs(x):
+66:def cmul(t1, t2):
+77:def cconj(t, inplace=False):
+88:def rfft(t):
+92:def irfft(t):
+96:def fft(t):
+100:def ifft(t):
+104:def p2o(psf, shape):
+122:def otf2psf(otf, outsize=None):
+153:def psf2otf(psf, shape=None):
+202:def zero_pad(image, shape, position='corner'):
+249:def opt_fft_size(n):
+299:def wrap_boundary_liu(img, img_size):
+314:def wrap_boundary(img, img_size):
+381:def solve_min_laplacian(boundary_image):
+460:def fspecial_average(hsize=3):
+465:def fspecial_disk(radius):
+487:def fspecial_gaussian(hsize, sigma):
+501:def fspecial_laplacian(alpha):
+510:def fspecial_log(hsize, sigma):
+514:def fspecial_motion(motion_len, theta):
+518:def fspecial_prewitt():
+522:def fspecial_sobel():
+526:def fspecial(filter_type, *args, **kwargs):
+549:def fspecial_gauss(size, sigma):
+555:def blurkernel_synthesis(h=37, w=None):
+587:def kernelFromTrajectory(x):
+618:def randomTrajectory(T):
+635:def rot3D(x, r):
+
+===== FILE: utils/utils_dist.py =====
+13:def init_dist(launcher, backend='nccl', **kwargs):
+24:def _init_dist_pytorch(backend, **kwargs):
+31:def _init_dist_slurm(backend, port=None):
+66:def get_dist_info():
+80:def get_rank():
+90:def get_world_size():
+100:def master_only(func):
+103:    def wrapper(*args, **kwargs):
+118:def reduce_sum(tensor):
+131:def gather_grad(params):
+143:def all_gather(data):
+178:def reduce_loss_dict(loss_dict):
+
+===== FILE: utils/utils_googledownload.py =====
+12:def sizeof_fmt(size, suffix='B'):
+27:def download_file_from_google_drive(file_id, save_path):
+58:def get_confirm_token(response):
+65:def save_response_content(response,
+
+===== FILE: utils/utils_image.py =====
+29:def is_image_file(filename):
+33:def get_timestamp():
+37:def imshow(x, title=None, cbar=False, figsize=None):
+47:def surf(Z, cmap='rainbow', figsize=None):
+67:def get_image_paths(dataroot):
+78:def _get_paths_from_images(path):
+97:def patches_from_image(img, p_size=512, p_overlap=64, p_max=800):
+116:def imssave(imgs, img_path):
+128:def split_imageset(original_dataroot, taget_dataroot, n_channels=3, p_size=512, p_overlap=96, p_max=800):
+157:def mkdir(path):
+162:def mkdirs(paths):
+170:def mkdir_and_rename(path):
+189:def imread_uint(path, n_channels=3):
+207:def imsave(img, img_path):
+213:def imwrite(img, img_path):
+224:def read_img(path):
+253:def uint2single(img):
+258:def single2uint(img):
+263:def uint162single(img):
+268:def single2uint16(img):
+279:def uint2tensor4(img):
+286:def uint2tensor3(img):
+293:def tensor2uint(img):
+306:def single2tensor3(img):
+311:def single2tensor4(img):
+316:def tensor2single(img):
+324:def tensor2single3(img):
+333:def single2tensor5(img):
+337:def single32tensor5(img):
+341:def single42tensor4(img):
+346:def tensor2img(tensor, out_type=np.uint8, min_max=(0, 1)):
+384:def augment_img(img, mode=0):
+405:def augment_img_tensor4(img, mode=0):
+426:def augment_img_tensor(img, mode=0):
+445:def augment_img_np3(img, mode=0):
+473:def augment_imgs(img_list, hflip=True, rot=True):
+479:    def _augment(img):
+498:def modcrop(img_in, scale):
+514:def shave(img_in, border=0):
+533:def rgb2ycbcr(img, only_y=True):
+
+===== FILE: utils/utils_lmdb.py =====
+9:def make_lmdb_from_imgs(data_path,
+78:        def callback(arg):
+132:def read_img_worker(path, key, compress_level):
+165:class LmdbMaker():
+176:    def __init__(self, lmdb_path, map_size=1024**4, batch=5000, compress_level=1):
+191:    def put(self, img_byte, key, img_shape):
+202:    def close(self):
+
+===== FILE: utils/utils_logger.py =====
+16:def log(*args, **kwargs):
+27:def logger_info(logger_name, log_path='default_logger.log'):
+56:class logger_print(object):
+57:    def __init__(self, log_path="default.log"):
+61:    def write(self, message):
+65:    def flush(self):
+
+===== FILE: utils/utils_mat.py =====
+7:def loadmat(filename):
+17:def _check_keys(dict):
+27:def _todict(matobj):
+41:def dict_to_nonedict(opt):
+53:class NoneDict(dict):
+54:    def __missing__(self, key):
+58:def mat2json(mat_path=None, filepath = None):
+
+===== FILE: utils/utils_matconvnet.py =====
+20:def weights2tensor(x, squeeze=False, in_features=None, out_features=None):
+68:def save_model(network, save_path):
+
+===== FILE: utils/utils_model.py =====
+20:def find_last_checkpoint(save_dir, net_type='G', pretrained_path=None):
+51:def test_mode(model, L, mode=0, refield=32, min_size=256, sf=1, modulo=1):
+98:def test(model, L):
+110:def test_pad(model, L, modulo=16, sf=1):
+127:def test_split_fn(model, L, refield=32, min_size=256, sf=1, modulo=1):
+174:def test_split(model, L, refield=32, min_size=256, sf=1, modulo=1):
+186:def test_x8(model, L, modulo=1, sf=1):
+205:def test_split_x8(model, L, refield=32, min_size=256, sf=1, modulo=1):
+234:def print_model(model):
+242:def print_params(model):
+257:def info_model(model):
+265:def info_params(model):
+280:def describe_model(model):
+293:def describe_params(model):
+308:        def __init__(self, in_channels=3, out_channels=3):
+312:        def forward(self, x):
+
+===== FILE: utils/utils_modelsummary.py =====
+27:def get_model_flops(model, input_res, print_per_layer_stat=True,
+48:def get_model_activation(model, input_res, input_constructor=None):
+67:def get_model_complexity_info(model, input_res, print_per_layer_stat=True, as_strings=True,
+92:def flops_to_string(flops, units='GMac', precision=2):
+113:def params_to_string(params_num):
+122:def print_model_with_flops(model, units='GMac', precision=3):
+125:    def accumulate_flops(self):
+134:    def flops_repr(self):
+140:    def add_extra_repr(m):
+148:    def del_extra_repr(m):
+160:def get_model_parameters_number(model):
+165:def add_flops_counting_methods(net_main_module):
+178:def compute_average_flops_cost(self):
+195:def start_flops_count(self):
+207:def stop_flops_count(self):
+219:def reset_flops_count(self):
+230:def add_flops_counter_hook_function(module):
+248:def remove_flops_counter_hook_function(module):
+255:def add_flops_counter_variable_or_reset(module):
+261:def is_supported_instance(module):
+274:def conv_flops_counter_hook(conv_module, input, output):
+298:def relu_flops_counter_hook(module, input, output):
+305:def linear_flops_counter_hook(module, input, output):
+315:def bn_flops_counter_hook(module, input, output):
+332:def add_activation_counting_methods(net_main_module):
+345:def compute_average_activation_cost(self):
+363:def start_activation_count(self):
+375:def stop_activation_count(self):
+387:def reset_activation_count(self):
+398:def add_activation_counter_hook_function(module):
+408:def remove_activation_counter_hook_function(module):
+415:def add_activation_counter_variable_or_reset(module):
+421:def is_supported_instance_for_activation(module):
+430:def conv_activation_counter_hook(module, input, output):
+443:def empty_flops_counter_hook(module, input, output):
+447:def upsample_flops_counter_hook(module, input, output):
+456:def pool_flops_counter_hook(module, input, output):
+461:def dconv_flops_counter_hook(dconv_module, input, output):
+
+===== FILE: utils/utils_option.py =====
+19:def get_timestamp():
+23:def parse(opt_path, is_train=True):
+172:def find_last_checkpoint(save_dir, net_type='G', pretrained_path=None):
+204:def save(opt):
+221:def dict2str(opt, indent_l=1):
+241:def dict_to_nonedict(opt):
+253:class NoneDict(dict):
+254:    def __missing__(self, key):
+
+===== FILE: utils/utils_params.py =====
+7:def show_kv(net):
+64:def rgb2gray_net(net, only_input=True):
+
+===== FILE: utils/utils_receptivefield.py =====
+20:def outFromIn(conv, layerIn):
+39:def printLayer(layer, layer_name):
+
+===== FILE: utils/utils_regularizers.py =====
+16:def regularizer_orth(m):
+47:def regularizer_orth2(m):
+74:def regularizer_clip(m):
+
+===== FILE: utils/utils_sisr.py =====
+35:def anisotropic_Gaussian(ksize=15, theta=np.pi, l1=6, l2=6):
+56:def gm_blur_kernel(mean, cov, size=15):
+76:def get_pca_matrix(x, dim_pca=15):
+91:def show_pca(x):
+100:def cal_pca_matrix(path='PCA_matrix.mat', ksize=15, l_max=12.0, dim_pca=15, num_samples=500):
+130:def shifted_anisotropic_Gaussian(k_size=np.array([15, 15]), scale_factor=np.array([4, 4]), min_var=0.6, max_var=10., noise_level=0):
+172:def gen_kernel(k_size=np.array([25, 25]), scale_factor=np.array([4, 4]), min_var=0.6, max_var=12., noise_level=0):
+223:def bicubic_degradation(x, sf=3):
+235:def srmd_degradation(x, k, sf=3):
+257:def dpsr_degradation(x, k, sf=3):
+280:def classical_degradation(x, k, sf=3):
+297:def modcrop_np(img, sf):
+317:def shift_pixel(x, sf, upper_left=True):
+353:def splits(a, sf):
+364:def c2c(x):
+368:def r2c(x):
+372:def cdiv(x, y):
+379:def csum(x, y):
+383:def cabs(x):
+387:def cmul(t1, t2):
+398:def cconj(t, inplace=False):
+409:def rfft(t):
+413:def irfft(t):
+417:def fft(t):
+421:def ifft(t):
+425:def p2o(psf, shape):
+450:def INVLS_pytorch(FB, FBC, F2B, FR, tau, sf=2):
+474:def real2complex(x):
+478:def modcrop(img, sf):
+488:def upsample(x, sf=3, center=False):
+498:def downsample(x, sf=3, center=False):
+503:def circular_pad(x, pad):
+514:def pad_circular(input, padding):
+530:def dim_pad_circular(input, padding, dimension):
+539:def imfilter(x, k):
+549:def G(x, k, sf=3, center=False):
+564:def Gt(x, k, sf=3, center=False):
+579:def interpolation_down(x, sf, center=False):
+600:def blockproc(im, blocksize, fun):
+616:def fun_reshape(a):
+
+===== FILE: utils/utils_video.py =====
+11:def scandir(dir_path, suffix=None, recursive=False, full_path=False):
+32:    def _scandir(dir_path, suffix, recursive):
+53:def read_img_seq(path, require_mod_crop=False, scale=1, return_imgname=False):
+85:def img2tensor(imgs, bgr2rgb=True, float32=True):
+98:    def _totensor(img, bgr2rgb, float32):
+114:def tensor2img(tensor, rgb2bgr=True, out_type=np.uint8, min_max=(0, 1)):
+173:def augment(imgs, hflip=True, rotation=True, flows=None, return_status=False):
+199:    def _augment(img):
+208:    def _augment_flow(flow):
+240:def paired_random_crop(img_gts, img_lqs, gt_patch_size, scale, gt_path=None):
+309:class BaseStorageBackend(metaclass=ABCMeta):
+318:    def get(self, filepath):
+322:    def get_text(self, filepath):
+326:class MemcachedBackend(BaseStorageBackend):
+336:    def __init__(self, server_list_cfg, client_cfg, sys_path=None):
+351:    def get(self, filepath):
+358:    def get_text(self, filepath):
+362:class HardDiskBackend(BaseStorageBackend):
+365:    def get(self, filepath):
+371:    def get_text(self, filepath):
+378:class LmdbBackend(BaseStorageBackend):
+398:    def __init__(self, db_paths, client_keys='default', readonly=True, lock=False, readahead=False, **kwargs):
+418:    def get(self, filepath, client_key):
+432:    def get_text(self, filepath):
+436:class FileClient(object):
+455:    def __init__(self, backend='disk', **kwargs):
+462:    def get(self, filepath, client_key='default'):
+470:    def get_text(self, filepath):
+474:def imfrombytes(content, flag='color', float32=False):
+
+===== FILE: utils/utils_videoio.py =====
+26:def is_str(x):
+31:def is_filepath(x):
+35:def fopen(filepath, *args, **kwargs):
+43:def check_file_exist(filename, msg_tmpl='file "{}" does not exist'):
+48:def mkdir_or_exist(dir_name, mode=0o777):
+55:def symlink(src, dst, overwrite=True, **kwargs):
+61:def scandir(dir_path, suffix=None, recursive=False, case_sensitive=True):
+88:    def _scandir(dir_path, suffix, recursive, case_sensitive):
+103:class Cache:
+105:    def __init__(self, capacity):
+112:    def capacity(self):
+116:    def size(self):
+119:    def put(self, key, val):
+126:    def get(self, key, default=None):
+131:class VideoReader:
+144:    def __init__(self, filename, cache_capacity=10):
+160:    def vcap(self):
+165:    def opened(self):
+170:    def width(self):
+175:    def height(self):
+180:    def resolution(self):
+185:    def fps(self):
+190:    def frame_cnt(self):
+195:    def fourcc(self):
+200:    def position(self):
+204:    def _get_real_position(self):
+207:    def _set_real_position(self, frame_id):
+214:    def read(self):
+240:    def get_frame(self, frame_id):
+267:    def current_frame(self):
+278:    def cvt2frames(self,
+306:        def write_frame(file_idx):
+320:    def __len__(self):
+323:    def __getitem__(self, index):
+336:    def __iter__(self):
+340:    def __next__(self):
+349:    def __enter__(self):
+352:    def __exit__(self, exc_type, exc_value, traceback):
+356:def frames2video(frame_dir,
+388:    def write_frame(file_idx):
+
+===== FILE: main_challenge_sr.py =====
+48:def main():
+
+===== FILE: main_download_pretrained_models.py =====
+52:def download_pretrained_model(model_dir='model_zoo', model_name='dncnn3.pth'):
+
+===== FILE: main_test_dncnn.py =====
+64:def main():
+
+===== FILE: main_test_dncnn3_deblocking.py =====
+56:def main():
+
+===== FILE: main_test_dpsr.py =====
+60:def main():
+
+===== FILE: main_test_face_enhancement.py =====
+48:class faceenhancer(object):
+49:    def __init__(self, model_path='model_zoo/GPEN-512.pth', size=512, channel_multiplier=2):
+57:    def process(self, img):
+74:class faceenhancer_with_detection_alignment(object):
+75:    def __init__(self, model_path, size=512, channel_multiplier=2):
+98:    def process(self, img):
+
+===== FILE: main_test_fdncnn.py =====
+61:def main():
+
+===== FILE: main_test_ffdnet.py =====
+58:def main():
+
+===== FILE: main_test_imdn.py =====
+60:def main():
+
+===== FILE: main_test_ircnn_denoiser.py =====
+55:def main():
+
+===== FILE: main_test_msrresnet.py =====
+62:def main():
+
+===== FILE: main_test_rrdb.py =====
+55:def main():
+
+===== FILE: main_test_rvrt.py =====
+23:def main():
+141:def prepare_model_dataset(args):
+228:def test_video(lq, model, args):
+272:def test_clip(lq, model, args):
+
+===== FILE: main_test_srmd.py =====
+63:def main():
+
+===== FILE: main_test_swinir.py =====
+14:def main():
+124:def define_model(args):
+183:def setup(args):
+217:def get_image_pair(args, path):
+256:def test(img_lq, model, args, window_size):
+
+===== FILE: main_test_usrnet.py =====
+52:def str2bool(value):
+63:def load_json_with_comments(json_path):
+71:def default_model_config(model_name):
+97:def model_config_from_opt(opt_path):
+114:def merge_model_config(base_cfg, args):
+137:def resolve_model_path(args):
+143:def resolve_scales(args, train_opt):
+153:def resolve_result_name(args, synthetic_mode, folder_lq, folder_gt):
+163:def resolve_save_dir(args, result_name):
+169:def resolve_device(device_str):
+175:def load_state_dict_safely(model, model_path, strict=True):
+189:def load_kernel_bank(kernel_path):
+217:def select_kernels(kernel_bank, kernel_indices):
+237:def build_output_path(input_path, input_root, save_dir, suffix):
+245:def image_stem(input_path, input_root):
+251:def prepare_sigma(noise_level_model, device):
+256:def inference_usrnet(model, img_l, kernel, sf, sigma, device):
+264:def maybe_add_noise(img_l, noise_level_img, seed):
+272:def synthesize_lq_from_gt(img_h, kernel, sf, noise_level_img, seed):
+280:def prepare_metric_pair(img_e, img_h):
+291:def init_metric_dict():
+300:def update_metrics(metrics, img_e, img_h, border):
+320:def build_gt_lookup(gt_paths):
+328:def parse_args():
+389:def main():
+
+===== FILE: main_test_vrt.py =====
+24:def main():
+158:def prepare_model_dataset(args):
+268:def test_video(lq, model, args):
+312:def test_clip(lq, model, args):
+
+===== FILE: main_train_dncnn.py =====
+46:def main(json_path='options/train_dncnn.json'):
+
+===== FILE: main_train_drunet.py =====
+31:def main(json_path='options/train_drunet.json'):
+
+===== FILE: main_train_gan.py =====
+30:def main(json_path='options/train_msrresnet_gan.json'):
+
+===== FILE: main_train_psnr.py =====
+32:def main(json_path='options/train_msrresnet_psnr.json'):
+
+===== FILE: main_train_usrnet.py =====
+41:def main(json_path='options/train_usrnet.json'):
+
+===== FILE: main_train_vrt.py =====
+31:def main(json_path='options/vrt/001_train_vrt_videosr_bi_reds_6frames.json'):
+
